@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="GaIn™" company="" webLink="" view-date="2011-05-01" view-index="0" gantt-divider-location="368" resource-divider-location="302" version="2.0">
+    <description/>
+    <view zooming-state="default:6" id="gantt-chart"/>
+    <view id="resource-table">
+        <field id="0" name="Name" width="55" order="0"/>
+        <field id="1" name="Default role" width="44" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <calendar id="1" name="default">
+                <default-week sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+                <overriden-day-types/>
+                <days/>
+            </calendar>
+        </day-types>
+    </calendars>
+    <tasks color="#cc0000">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="12" name="Incorporate Feedback from Meeting" color="#cc0000" meeting="false" start="2011-05-02" duration="5" complete="0" priority="1" expand="true">
+            <notes><![CDATA[Record comments from meeting and prioritize incorporating those items most crucial for successful launch of V 1.0 of GaIn™.]]></notes>
+        </task>
+        <task id="0" name="Restructure &amp; Add Indicators" color="#cc0000" meeting="false" start="2011-05-09" duration="25" complete="0" priority="1" expand="true">
+            <notes><![CDATA[Restructure Index according to comments and suggestions. This will primarily involve expanding the number of Vulnerability indicators to show a causal connection between biophysical, sensitivity and adaptive capacity indicators. Indicators on the Readiness Axis are being reviewed for usefulness. ]]></notes>
+        </task>
+        <task id="2" name="Index &amp; Software Development" color="#cc0000" meeting="false" start="2011-06-13" duration="5" complete="0" priority="1" expand="true">
+            <notes><![CDATA[Creating a platform in which users can interact with the various graphs and visual representations will be essential for a successful consultation and launching of the Index. The Institute will provide all data used and methodology as well. This will be presented on a page devoted entirely to the Index on the Institute’s website. ]]></notes>
+        </task>
+        <task id="3" name="Documentation &amp; White Paper" color="#cc0000" meeting="false" start="2011-06-20" duration="10" complete="0" priority="1" expand="true">
+            <notes><![CDATA[The Institute will expand upon its current description of the Index to reflect changes as well as present a better description of the Index to different audiences. A White Paper along with “use case,” summaries of how the Index can and can not be used, will be created. ]]></notes>
+        </task>
+        <task id="6" name="Friendly Review" color="#cc0000" meeting="false" start="2011-07-04" duration="15" complete="0" priority="1" expand="true">
+            <notes><![CDATA[New incorporations, the White Paper and web interface will be presented to external consultants with which the Institute has developed relations before the Open Consultation. ]]></notes>
+        </task>
+        <task id="7" name="Short Revision for Open Consultation &amp; Board Meeting" color="#cc0000" meeting="false" start="2011-07-25" duration="4" complete="0" priority="1" expand="true">
+            <notes><![CDATA[Revisions based on the comments from external consultants on the Index methodology, descriptions, use cases and web interface will be incorporated. ]]></notes>
+        </task>
+        <task id="8" name="Open Consultation" color="#cc0000" meeting="false" start="2011-08-01" duration="20" complete="0" priority="1" expand="true">
+            <notes><![CDATA[Anyone will be able to leave comments on the Index through various web tools under consideration by the Institute. The Institute will make revisions deemed important as they come in. All critiques will be noted, though there may be few significant revisions to the Index since most of the leaders in the field will have been consulted previously. ]]></notes>
+        </task>
+        <task id="9" name="Final Preparation &amp; Review" color="#cc0000" meeting="false" start="2011-08-29" duration="10" complete="0" priority="1" expand="true">
+            <notes><![CDATA[Press releases and conferences as well as online media strategies will have been planned throughout the summer and ready for implementation at this time. Any final “polishing” of the Index needed will be incorporated.]]></notes>
+        </task>
+        <task id="13" name="Release GaIn™ V 1.0" color="#cc0000" meeting="false" start="2011-09-12" duration="1" complete="0" priority="1" expand="true"/>
+    </tasks>
+    <resources>
+        <resource id="0" name="Ian Noble" function="Default:1" contacts="" phone=""/>
+        <resource id="1" name="Bruno Sanchez" function="Default:0" contacts="" phone=""/>
+        <resource id="2" name="Davis Cherry " function="Default:0" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="12" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="12" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="0" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="0" resource-id="1" function="Default:0" responsible="false" load="100.0"/>
+        <allocation task-id="2" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="2" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="3" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="6" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="7" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="8" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="9" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <taskdisplaycolumns>
+        <displaycolumn property-id="tpd3" order="0" width="183"/>
+        <displaycolumn property-id="tpd4" order="1" width="21"/>
+        <displaycolumn property-id="tpd5" order="2" width="21"/>
+    </taskdisplaycolumns>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>

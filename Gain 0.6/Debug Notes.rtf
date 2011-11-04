@@ -1,0 +1,119 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf350
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww8120\viewh14660\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural\pardirnatural
+
+\f0\b\fs24 \cf0 READINESS RUN\
+
+\b0 All countries really seem to run towards better scores. This is good,      but may be they run to fast.\
+Basically Turkey in 2010 is where Germany was in 1995.\
+Also,      they move a lot around 2005. 
+\b WHY?\
+\
+
+\b0 For what I checked it mostly due to the boom on mobiles. May be this means our REadiness is way to dependent on it,      or that it also has a narrow cap band. I was using 70%,      now it\'b4s 90%. Some countries have 200%.\
+\
+
+\b READINESS STUBBORNNESS
+\b0 \
+Vulnerability depends in 20+ Indicators,      but Readiness depends on 6. And 40% of Readiness is IEF. Changes in IEF does change the score. I think that is the reason countries 
+\b zigzag
+\b0  so much in readiness.\
+\
+\
+
+\b MISSING COUNTRIES\
+
+\b0 \
+After adding all numbers,      many MANY countries are missing because they have one or more missing values. Here I am trying to debug minimal changes so that we have at least 70% of the countries.
+\b \
+\
+\
+\
+\
+Water withdrawn for all uses as percent of total internal & external water	\
+
+\b0 	\
+Is very sparse. I will use 
+\b 30% worsening (higher) over 10 years
+\b0  for those who have 
+\b only one data point,      AND only have this component missing. Trend pivots on available datapoint.\
+
+\b0 \
+Albania 4.4 in 2000\
+Algeria 52.65 in 2000,     \
+Bangladesh 2.92 in 2010\
+Cambodia 0.46 in 2005\
+Canada 1.58 in 2000\
+El Salvador 5.45 in 2000\
+Ethiopia 4.56 in 2000\
+Congo 0.01 en 2000\
+Ghana in 2005\
+Jordan in 2000\
+Malaysia in 2000\
+Switzerland in 200\
+Ukraine in 2000\
+Viet Nam in 2005
+\b \
+\
+Mortality due to infectious disease\
+
+\b0 Liechtenstein is the only one missing. Does not really matter as this country lacks half of the data anyway.\
+\
+
+\b Health Index\
+\
+NURSES DATA FROM WHO DON\'b4T MATCH WITH DATA WORLD BANK. I DID A RETAKE FROM WB AND CHECKED WITH WHO.\
+
+\b0 \
+Yemen only reported 
+\b Nurses
+\b0  in 2004 (0.6). I made a 30% decrease in 10 years (0.77 in 1995). \
+\
+South Africa only reported 
+\b Doctors
+\b0  in 2004 (0.77). Same trend added. 
+\b Nurses
+\b0  only for  2004,      and it is 4.08 per 1000. I made a 30% decrease in 10 years.
+\b \
+\
+
+\b0 Other Countries with only 1 data point  in 
+\b Nurses
+\b0  for which I made a 30% decrease in 10 years: Angola,     Antigua and Barbuda,     Bahamas,     Bhutan,     Bolivia,      Plurinational State of,     Bosnia and Herzegovina,     Burundi,     Cameroon,     Canada,     Central African Republic,     Chad,     Chile,     Colombia,     Comoros,     Congo,      the Democratic Republic of the,     Costa Rica,     Cyprus,     Dominica,     Dominican Republic,     Ecuador,     Equatorial Guinea,     Eritrea,     Fiji,     Gabon,     Grenada,     Guatemala,     Guyana,     Haiti,     Honduras,     Iran,      Islamic Republic of,     Jamaica,     Kenya,     Kiribati,     Korea,      Democratic People's Republic of,     Lesotho,     Liechtenstein,     Madagascar,     Mauritius,     Monaco,     Macedonia,     Nepal,     Nicaragua,     Panama,     Paraguay,     Romania,     Russian Federation,     Saint Kitts and Nevis,     Saint Vincent and the Grenadines,     San Marino,     Sao Tome and Principe,     Seychelles,     Suriname,     Swaziland,     Tajikistan,     Timor-Leste,     Ukraine,     Venezuela,      Bolivarian Republic of,     Zimbabwe\
+\
+Other Countries with only 1 data point  in 
+\b Doctors
+\b0  for which I made a 30% decrease in 10 years:\
+Angola,    Antigua and Barbuda,    Bahamas,    Bolivia,     Plurinational State of,    Burundi,    Cameroon,    Central African Republic,    Chad,    Chile,    Colombia,    Comoros,    Congo,     the Democratic Republic of the,    Costa Rica,    Dominica,    Dominican Republic,    Ecuador,    Equatorial Guinea,    Eritrea,    Gabon,    Guatemala,    Guyana,    Haiti,    Honduras,    Jamaica,    Kenya,    Korea,     Democratic People's Republic of,    Lesotho,    Mauritius,    Monaco,    Nepal,    Nicaragua,    Panama,    Paraguay,    San Marino,    Sao Tome and Principe,    Seychelles,    Suriname,    Timor-Leste,    Venezuela,     Bolivarian Republic of.\
+\
+
+\b Wasting\
+
+\b0 only one data point. Doing the 10 years 30% worsening:\
+Argentina,   Angola,   Bahrain,   Belarus,   Belize,   Bhutan,   Brazil,   Cape Verde,   China,   Costa Rica,   Cuba,   Equatorial Guinea,   Gabon,   Kuwait,   Lebanon,   Libyan Arab Jamahiriya,   Mauritius,   Mexico,   Moldova,    Republic of,   Montenegro,   Papua New Guinea,   Romania,   Russian Federation,   Saudi Arabia,   Serbia,   Singapore,   Swaziland,   Trinidad and Tobago,   United Arab Emirates,   Vanuatu,   \
+\
+
+\b Water withdrawn for all uses as percent of total internal & external water			\
+
+\b0 \
+I assume
+\b  higher is worse
+\b0  (more vulnerable)\
+With only one data point:\
+Afghanistan,  Albania,  Algeria,  Angola,  Bahrain,  Bangladesh ,  Barbados,  Belarus,  Benin,  Bhutan,  Bolivia,   Plurinational State of,  Brunei Darussalam,  Burkina Faso,  Burundi,  Cambodia,  Cameroon,  Canada,  Cape Verde,  Central African Republic,  Chad,  Chile,  Comoros,  Congo,  Congo,   the Democratic Republic of the,  Croatia,  Djibouti,  El Salvador,  Equatorial Guinea,  Ethiopia,  Fiji,  Gabon,  Gambia,  Georgia,  Ghana,  Guatemala,  Guinea,  Guyana,  Haiti,  Honduras,  Indonesia,  Italy,  Jordan,  Kenya,  Korea,   Democratic People's Republic of,  Korea,   Republic of,  Lao People's Democratic Republic,  Lesotho,  Liberia,  Madagascar,  Malaysia,  Maldives,  Mali,  Mauritania,  Moldova,   Republic of,  Mozambique,  Myanmar,  Nepal,  New Zealand,  Nicaragua,  Niger,  Nigeria,  Panama,  Papua New Guinea,  Paraguay,  Peru,  Portugal,  Rwanda,  Sao Tome and Principe,  Saudi Arabia,  Senegal,  Sierra Leone,  Slovenia,  Suriname,  Swaziland,  Switzerland,  Tanzania,   United Republic of,  Thailand,  Togo,  Uganda,  Ukraine,  Uruguay,  Venezuela,   Bolivarian Republic of,  Viet Nam,  Zimbabwe\
+\
+
+\b Road paved %\
+
+\b0 \
+Countries with only one data point:\
+, Antigua and Barbuda, Congo,  the Democratic Republic of the, Malawi, Maldives, Nigeria, Samoa, Swaziland, Tajikistan, Uganda, Zambia,\
+\
+\
+\
+REmove civil wars in the model.\
+Like Yemen, Afghanistan,  \
+\
+}
