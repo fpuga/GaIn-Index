@@ -1,0 +1,13 @@
+Summary of changes
+
+We presented the 2011 GAIN Index in September. After that, we focused our resources into rolling out the Index and make presentations to relevant stakeholders. These include:
+…
+…
+
+Feedback from these experiences was duly noted, and reflected upon our Issues tracker when appropriate.
+
+The focus of this year has been therefore to expand the use base of the Index and make the community aware of the conceptual framework and the results, aiming for the colaboration, and use of the Index.
+
+We have also identified a few bugs, requests for improvement. All noted on the Issue list online.
+
+To ensure the quality of the Index, instead of fixing the bugs, we decided to make an independent internal audit. We re-created the entire pipeline code that yields the results, making sure the outcome was the same, and those noted bugs war actually fixed.
