@@ -1,2 +1,4 @@
 SINGAPORE DOES report 0 as rural population
 what IEF calls Year X we call Year X-1
+
+agri capacity. if only 1 number, is the average of 1 and that number.
