@@ -37,7 +37,7 @@ missing data properly).
 ##Running the Pipeline##
 
 Open the *Main.xls* file. Clear the column "exclude" and click DoAll. It
-will take around 3 hours to complete. Not sure by so much.
+will take around 3 hours to complete. Not sure why so much.
 
 File Gain-dev.LOG logs the progress.
 
