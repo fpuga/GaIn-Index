@@ -1,0 +1,3626 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>United Nations Statistics Division</Author>
+  <LastAuthor>Bruno Sanchez-Andrade Nuno</LastAuthor>
+  <LastSaved>2012-08-31T18:45:02Z</LastSaved>
+  <Company>United Nations Statistics Division</Company>
+  <Version>14.0</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <SupBook>
+   <Path> </Path>
+   <SheetName> </SheetName>
+  </SupBook>
+  <WindowHeight>12860</WindowHeight>
+  <WindowWidth>29320</WindowWidth>
+  <WindowTopX>-17860</WindowTopX>
+  <WindowTopY>4400</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Font x:Family="Swiss" ss:Size="11" ss:Color="#FCF305" ss:Bold="1"/>
+   <Interior ss:Color="#006411" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Font x:Family="Swiss" ss:Size="11" ss:Color="#000000" ss:Bold="1"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Indicator 32">
+  <Table ss:ExpandedColumnCount="21" ss:ExpandedRowCount="90" x:FullColumns="1"
+   x:FullRows="1">
+   <Column ss:Hidden="1" ss:AutoFitWidth="0"/>
+   <Row ss:StyleID="s62">
+    <Cell><Data ss:Type="Number">32</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">7.10 Proportion of urban population living in slums</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s62">
+    <Cell><Data ss:Type="String">Id</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Country</Data></Cell>
+    <Cell><Data ss:Type="Number">1990</Data></Cell>
+    <Cell><Data ss:Type="String">1990 Nature</Data></Cell>
+    <Cell><Data ss:Type="String">1990 Footnotes</Data></Cell>
+    <Cell><Data ss:Type="Number">1995</Data></Cell>
+    <Cell><Data ss:Type="String">1995 Nature</Data></Cell>
+    <Cell><Data ss:Type="String">1995 Footnotes</Data></Cell>
+    <Cell><Data ss:Type="Number">2000</Data></Cell>
+    <Cell><Data ss:Type="String">2000 Nature</Data></Cell>
+    <Cell><Data ss:Type="String">2000 Footnotes</Data></Cell>
+    <Cell><Data ss:Type="Number">2005</Data></Cell>
+    <Cell><Data ss:Type="String">2005 Nature</Data></Cell>
+    <Cell><Data ss:Type="String">2005 Footnotes</Data></Cell>
+    <Cell><Data ss:Type="Number">2007</Data></Cell>
+    <Cell><Data ss:Type="String">2007 Nature</Data></Cell>
+    <Cell><Data ss:Type="String">2007 Footnotes</Data></Cell>
+    <Cell><Data ss:Type="Number">2009</Data></Cell>
+    <Cell><Data ss:Type="String">2009 Nature</Data></Cell>
+    <Cell><Data ss:Type="String">2009 Footnotes</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s63">
+    <Cell><Data ss:Type="Number">710</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Slum population as percentage of urban, percentage</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">24</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">AGO</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Angola</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">86.5</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">2,81</Data></Cell>
+    <Cell><Data ss:Type="Number">76.2</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">102</Data></Cell>
+    <Cell><Data ss:Type="Number">65.8</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">103,113</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">32</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">ARG</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Argentina</Data></Cell>
+    <Cell><Data ss:Type="Number">30.5</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">89,107</Data></Cell>
+    <Cell><Data ss:Type="Number">31.7</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">89,106</Data></Cell>
+    <Cell><Data ss:Type="Number">32.9</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">89,106</Data></Cell>
+    <Cell><Data ss:Type="Number">26.2</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">94</Data></Cell>
+    <Cell><Data ss:Type="Number">23.5</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">94</Data></Cell>
+    <Cell><Data ss:Type="Number">20.8</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">94</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">50</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">BGD</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Bangladesh</Data></Cell>
+    <Cell><Data ss:Type="Number">87.3</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">53</Data></Cell>
+    <Cell><Data ss:Type="Number">84.7</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">53</Data></Cell>
+    <Cell><Data ss:Type="Number">77.8</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">53</Data></Cell>
+    <Cell><Data ss:Type="Number">70.8</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">97,113</Data></Cell>
+    <Cell><Data ss:Type="Number">66.2</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">104</Data></Cell>
+    <Cell><Data ss:Type="Number">61.6</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">97,113</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">84</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">BLZ</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Belize</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">18.7</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">111</Data></Cell>
+    <Cell ss:Index="20"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">204</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">BEN</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Benin</Data></Cell>
+    <Cell><Data ss:Type="Number">79.3</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">58,113</Data></Cell>
+    <Cell><Data ss:Type="Number">76.8</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">58,113</Data></Cell>
+    <Cell><Data ss:Type="Number">74.3</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">58,113</Data></Cell>
+    <Cell><Data ss:Type="Number">71.8</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">76</Data></Cell>
+    <Cell><Data ss:Type="Number">70.8</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">76,113</Data></Cell>
+    <Cell><Data ss:Type="Number">69.8</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">76,113</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">68</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">BOL</Data></Cell>
+    <Cell><Data ss:Type="String">Bolivia, Plurinational State of</Data></Cell>
+    <Cell><Data ss:Type="Number">62.2</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">27</Data></Cell>
+    <Cell><Data ss:Type="Number">58.2</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">27</Data></Cell>
+    <Cell><Data ss:Type="Number">54.3</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">27</Data></Cell>
+    <Cell><Data ss:Type="Number">50.4</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">28,109</Data></Cell>
+    <Cell><Data ss:Type="Number">48.8</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">28,113</Data></Cell>
+    <Cell><Data ss:Type="Number">47.3</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">28,113</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">76</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">BRA</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Brazil</Data></Cell>
+    <Cell><Data ss:Type="Number">36.700000000000003</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">22</Data></Cell>
+    <Cell><Data ss:Type="Number">34.1</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">22</Data></Cell>
+    <Cell><Data ss:Type="Number">31.5</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">22</Data></Cell>
+    <Cell><Data ss:Type="Number">29</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">112</Data></Cell>
+    <Cell><Data ss:Type="Number">28</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">112</Data></Cell>
+    <Cell><Data ss:Type="Number">26.9</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">112,113</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">854</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">BFA</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Burkina Faso</Data></Cell>
+    <Cell><Data ss:Type="Number">78.8</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">48,113</Data></Cell>
+    <Cell><Data ss:Type="Number">72.400000000000006</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">48,113</Data></Cell>
+    <Cell><Data ss:Type="Number">65.900000000000006</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">48,113</Data></Cell>
+    <Cell><Data ss:Type="Number">59.5</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">12,49,87</Data></Cell>
+    <Cell><Data ss:Type="Number">59.5</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">12,49,87</Data></Cell>
+    <Cell ss:Index="20"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">108</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">BDI</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Burundi</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">64.3</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">1,81</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="20"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">116</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">KHM</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Cambodia</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">78.900000000000006</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">76</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="20"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">120</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">CMR</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Cameroon</Data></Cell>
+    <Cell><Data ss:Type="Number">50.8</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">33</Data></Cell>
+    <Cell><Data ss:Type="Number">49.6</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">38,113</Data></Cell>
+    <Cell><Data ss:Type="Number">48.4</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">38,113</Data></Cell>
+    <Cell><Data ss:Type="Number">47.4</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">69,113</Data></Cell>
+    <Cell><Data ss:Type="Number">46.6</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">69,113</Data></Cell>
+    <Cell><Data ss:Type="Number">46.1</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">69,113</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">140</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">CAF</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Central African Republic</Data></Cell>
+    <Cell><Data ss:Type="Number">87.5</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">55,113</Data></Cell>
+    <Cell><Data ss:Type="Number">89.7</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">55,113</Data></Cell>
+    <Cell><Data ss:Type="Number">91.9</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">92</Data></Cell>
+    <Cell><Data ss:Type="Number">94.1</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">55,113</Data></Cell>
+    <Cell><Data ss:Type="Number">95</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">55,113</Data></Cell>
+    <Cell><Data ss:Type="Number">95.9</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">55,113</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">148</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">TCD</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Chad</Data></Cell>
+    <Cell><Data ss:Type="Number">98.9</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">62</Data></Cell>
+    <Cell><Data ss:Type="Number">96.4</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">62</Data></Cell>
+    <Cell><Data ss:Type="Number">93.9</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">62</Data></Cell>
+    <Cell><Data ss:Type="Number">91.3</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">63,113</Data></Cell>
+    <Cell><Data ss:Type="Number">90.3</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">63,113</Data></Cell>
+    <Cell><Data ss:Type="Number">89.3</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">63,113</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">152</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">CHL</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Chile</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">20,93</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="20"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">156</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">CHN</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">China</Data></Cell>
+    <Cell><Data ss:Type="Number">43.6</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">89,107</Data></Cell>
+    <Cell><Data ss:Type="Number">40.5</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">89,107</Data></Cell>
+    <Cell><Data ss:Type="Number">37.299999999999997</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">89,107</Data></Cell>
+    <Cell><Data ss:Type="Number">32.9</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">96</Data></Cell>
+    <Cell><Data ss:Type="Number">31</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">96</Data></Cell>
+    <Cell><Data ss:Type="Number">29.1</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">96</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">170</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">COL</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Colombia</Data></Cell>
+    <Cell><Data ss:Type="Number">31.2</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">29</Data></Cell>
+    <Cell><Data ss:Type="Number">26.8</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">90</Data></Cell>
+    <Cell><Data ss:Type="Number">22.3</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">90</Data></Cell>
+    <Cell><Data ss:Type="Number">17.899999999999999</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">76</Data></Cell>
+    <Cell><Data ss:Type="Number">16.100000000000001</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">76</Data></Cell>
+    <Cell><Data ss:Type="Number">14.3</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">76,113</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">174</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">COM</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Comoros</Data></Cell>
+    <Cell><Data ss:Type="Number">65.400000000000006</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">89</Data></Cell>
+    <Cell><Data ss:Type="Number">65.400000000000006</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">89</Data></Cell>
+    <Cell><Data ss:Type="Number">65.400000000000006</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">89</Data></Cell>
+    <Cell><Data ss:Type="Number">68.900000000000006</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">61,113</Data></Cell>
+    <Cell><Data ss:Type="Number">68.900000000000006</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">61,113</Data></Cell>
+    <Cell ss:Index="20"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">178</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">COG</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Congo</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">53.4</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">12,76</Data></Cell>
+    <Cell><Data ss:Type="Number">51.7</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">100,113</Data></Cell>
+    <Cell><Data ss:Type="Number">49.9</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">105</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">188</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">CRI</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Costa Rica</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">10.9</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">96</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="20"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">384</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">CIV</Data></Cell>
+    <Cell><Data ss:Type="String">Côte d'Ivoire</Data></Cell>
+    <Cell><Data ss:Type="Number">53.4</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">54</Data></Cell>
+    <Cell><Data ss:Type="Number">54.3</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">54</Data></Cell>
+    <Cell><Data ss:Type="Number">55.3</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">54</Data></Cell>
+    <Cell><Data ss:Type="Number">56.2</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">16</Data></Cell>
+    <Cell><Data ss:Type="Number">56.6</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">16</Data></Cell>
+    <Cell><Data ss:Type="Number">57</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">16,113</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">180</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">COD</Data></Cell>
+    <Cell><Data ss:Type="String">Congo, the Democratic Republic of the</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">76.400000000000006</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">81,113</Data></Cell>
+    <Cell><Data ss:Type="Number">69.099999999999994</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">104</Data></Cell>
+    <Cell><Data ss:Type="Number">61.7</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">104,113</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">214</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">DOM</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Dominican Republic</Data></Cell>
+    <Cell><Data ss:Type="Number">27.9</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">36</Data></Cell>
+    <Cell><Data ss:Type="Number">24.4</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">36</Data></Cell>
+    <Cell><Data ss:Type="Number">21</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">36</Data></Cell>
+    <Cell><Data ss:Type="Number">17.600000000000001</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">17,37</Data></Cell>
+    <Cell><Data ss:Type="Number">16.2</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">13,37,113</Data></Cell>
+    <Cell><Data ss:Type="Number">14.8</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">37,113</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">218</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">ECU</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Ecuador</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">21.5</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">96</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="20"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">818</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">EGY</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Egypt</Data></Cell>
+    <Cell><Data ss:Type="Number">50.2</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">24,113</Data></Cell>
+    <Cell><Data ss:Type="Number">39.200000000000003</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">24,113</Data></Cell>
+    <Cell><Data ss:Type="Number">28.1</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">72</Data></Cell>
+    <Cell><Data ss:Type="Number">17.100000000000001</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">12,76</Data></Cell>
+    <Cell><Data ss:Type="Number">14.4</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">99,113</Data></Cell>
+    <Cell><Data ss:Type="Number">13.1</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">99,113</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">222</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">SLV</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">El Salvador</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">28.9</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">96</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="20"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">226</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">GNQ</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Equatorial Guinea</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">66.3</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">81,113</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="20"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">231</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">ETH</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Ethiopia</Data></Cell>
+    <Cell><Data ss:Type="Number">95.5</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">74</Data></Cell>
+    <Cell><Data ss:Type="Number">95.5</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">74</Data></Cell>
+    <Cell><Data ss:Type="Number">88.6</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">74</Data></Cell>
+    <Cell><Data ss:Type="Number">81.8</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">76</Data></Cell>
+    <Cell><Data ss:Type="Number">79.099999999999994</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">76</Data></Cell>
+    <Cell><Data ss:Type="Number">76.400000000000006</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">76,113</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">254</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">French Guiana</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">10.5</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">96</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="20"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">266</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">GAB</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Gabon</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">38.700000000000003</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">12,74</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="20"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">270</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">GMB</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Gambia</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">45.4</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">12,81,113</Data></Cell>
+    <Cell><Data ss:Type="Number">34.799999999999997</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">111</Data></Cell>
+    <Cell ss:Index="20"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">288</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">GHA</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Ghana</Data></Cell>
+    <Cell><Data ss:Type="Number">65.5</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">48</Data></Cell>
+    <Cell><Data ss:Type="Number">58.8</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">48</Data></Cell>
+    <Cell><Data ss:Type="Number">52.1</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">48</Data></Cell>
+    <Cell><Data ss:Type="Number">45.4</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">12,49,113</Data></Cell>
+    <Cell><Data ss:Type="Number">42.8</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">49,113</Data></Cell>
+    <Cell><Data ss:Type="Number">40.1</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">49,113</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">308</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">GRD</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Grenada</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">96</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="20"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">312</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="Error">#N/A</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Guadeloupe</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">5.4</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">96</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="20"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">320</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">GTM</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Guatemala</Data></Cell>
+    <Cell><Data ss:Type="Number">58.6</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">57</Data></Cell>
+    <Cell><Data ss:Type="Number">53.3</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">57</Data></Cell>
+    <Cell><Data ss:Type="Number">48.1</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">57</Data></Cell>
+    <Cell><Data ss:Type="Number">42.9</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">13,57</Data></Cell>
+    <Cell><Data ss:Type="Number">40.799999999999997</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">57</Data></Cell>
+    <Cell><Data ss:Type="Number">38.700000000000003</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">57,113</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">324</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">GIN</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Guinea</Data></Cell>
+    <Cell><Data ss:Type="Number">80.400000000000006</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">44</Data></Cell>
+    <Cell><Data ss:Type="Number">68.8</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">44</Data></Cell>
+    <Cell><Data ss:Type="Number">57.3</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">44</Data></Cell>
+    <Cell><Data ss:Type="Number">45.7</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">12,76,87</Data></Cell>
+    <Cell><Data ss:Type="Number">45.7</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">76,87</Data></Cell>
+    <Cell ss:Index="20"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">624</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">GNB</Data></Cell>
+    <Cell><Data ss:Type="String">GuineaBissau</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">83.1</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">81,113</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="20"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">328</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">GUY</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Guyana</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">33.700000000000003</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">7,81</Data></Cell>
+    <Cell><Data ss:Type="Number">33.5</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">100</Data></Cell>
+    <Cell><Data ss:Type="Number">33.200000000000003</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">105</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">332</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">HTI</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Haiti</Data></Cell>
+    <Cell><Data ss:Type="Number">93.4</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">56</Data></Cell>
+    <Cell><Data ss:Type="Number">93.4</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">56</Data></Cell>
+    <Cell><Data ss:Type="Number">93.4</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">56</Data></Cell>
+    <Cell><Data ss:Type="Number">70.099999999999994</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">99</Data></Cell>
+    <Cell><Data ss:Type="Number">70.099999999999994</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">99</Data></Cell>
+    <Cell><Data ss:Type="Number">70.099999999999994</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">99</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">340</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">HND</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Honduras</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">34.9</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">76,78</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="20"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">356</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">IND</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">India</Data></Cell>
+    <Cell><Data ss:Type="Number">54.9</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">52</Data></Cell>
+    <Cell><Data ss:Type="Number">48.2</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">52</Data></Cell>
+    <Cell><Data ss:Type="Number">41.5</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">52</Data></Cell>
+    <Cell><Data ss:Type="Number">34.799999999999997</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">14,77</Data></Cell>
+    <Cell><Data ss:Type="Number">32.1</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">77</Data></Cell>
+    <Cell><Data ss:Type="Number">29.4</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">77,113</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">360</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">IDN</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Indonesia</Data></Cell>
+    <Cell><Data ss:Type="Number">50.8</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">34</Data></Cell>
+    <Cell><Data ss:Type="Number">42.6</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">34</Data></Cell>
+    <Cell><Data ss:Type="Number">34.4</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">34</Data></Cell>
+    <Cell><Data ss:Type="Number">26.3</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">21,35</Data></Cell>
+    <Cell><Data ss:Type="Number">23</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">35</Data></Cell>
+    <Cell><Data ss:Type="Number">23</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">35</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">368</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">IRQ</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Iraq</Data></Cell>
+    <Cell><Data ss:Type="Number">16.899999999999999</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">89,107</Data></Cell>
+    <Cell><Data ss:Type="Number">16.899999999999999</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">89,107</Data></Cell>
+    <Cell><Data ss:Type="Number">16.899999999999999</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">89,107</Data></Cell>
+    <Cell><Data ss:Type="Number">52.8</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">79,82</Data></Cell>
+    <Cell><Data ss:Type="Number">52.8</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">82</Data></Cell>
+    <Cell><Data ss:Type="Number">52.8</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">82</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">388</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">JAM</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Jamaica</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">60.5</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">8,85</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="20"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">400</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">JOR</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Jordan</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">15.8</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">30</Data></Cell>
+    <Cell><Data ss:Type="Number">17.7</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">100</Data></Cell>
+    <Cell><Data ss:Type="Number">19.600000000000001</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">105</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">404</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">KEN</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Kenya</Data></Cell>
+    <Cell><Data ss:Type="Number">54.9</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">25</Data></Cell>
+    <Cell><Data ss:Type="Number">54.8</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">25</Data></Cell>
+    <Cell><Data ss:Type="Number">54.8</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">25</Data></Cell>
+    <Cell><Data ss:Type="Number">54.8</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">12,49,113</Data></Cell>
+    <Cell><Data ss:Type="Number">54.8</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">49,113</Data></Cell>
+    <Cell><Data ss:Type="Number">54.7</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">49,113</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">418</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">LAO</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Lao People's Democratic Republic</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">79.3</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">6,81</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="20"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">422</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">LBN</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Lebanon</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">53.1</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">84</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="20"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">426</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">LSO</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Lesotho</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">35.1</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">12,15,75</Data></Cell>
+    <Cell><Data ss:Type="Number">44.4</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">98,113</Data></Cell>
+    <Cell><Data ss:Type="Number">53.7</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">105</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">430</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">LBR</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Liberia</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">68.3</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">105</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">450</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">MDG</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Madagascar</Data></Cell>
+    <Cell><Data ss:Type="Number">93</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">38</Data></Cell>
+    <Cell><Data ss:Type="Number">88.6</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">38</Data></Cell>
+    <Cell><Data ss:Type="Number">84.1</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">38</Data></Cell>
+    <Cell><Data ss:Type="Number">80.599999999999994</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">15,75</Data></Cell>
+    <Cell><Data ss:Type="Number">78</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">75,113</Data></Cell>
+    <Cell><Data ss:Type="Number">76.2</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">75,113</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">454</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">MWI</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Malawi</Data></Cell>
+    <Cell><Data ss:Type="Number">66.400000000000006</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">45</Data></Cell>
+    <Cell><Data ss:Type="Number">66.400000000000006</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">45</Data></Cell>
+    <Cell><Data ss:Type="Number">66.400000000000006</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">45</Data></Cell>
+    <Cell><Data ss:Type="Number">66.400000000000006</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">12,15,75</Data></Cell>
+    <Cell><Data ss:Type="Number">67.7</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">75,113</Data></Cell>
+    <Cell><Data ss:Type="Number">68.900000000000006</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">75,113</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">466</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">MLI</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Mali</Data></Cell>
+    <Cell><Data ss:Type="Number">94.2</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">23</Data></Cell>
+    <Cell><Data ss:Type="Number">84.8</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">23</Data></Cell>
+    <Cell><Data ss:Type="Number">75.400000000000006</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">23</Data></Cell>
+    <Cell><Data ss:Type="Number">65.900000000000006</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">10,12,59</Data></Cell>
+    <Cell><Data ss:Type="Number">65.900000000000006</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">59,113</Data></Cell>
+    <Cell><Data ss:Type="Number">65.900000000000006</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">59,113</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">484</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">MEX</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Mexico</Data></Cell>
+    <Cell><Data ss:Type="Number">23.1</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">89,106</Data></Cell>
+    <Cell><Data ss:Type="Number">21.5</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">89,106</Data></Cell>
+    <Cell><Data ss:Type="Number">19.899999999999999</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">89,106</Data></Cell>
+    <Cell><Data ss:Type="Number">14.4</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">19</Data></Cell>
+    <Cell><Data ss:Type="Number">14.4</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">19</Data></Cell>
+    <Cell ss:Index="20"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">496</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">MNG</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Mongolia</Data></Cell>
+    <Cell><Data ss:Type="Number">68.5</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">89,107</Data></Cell>
+    <Cell><Data ss:Type="Number">66.7</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">89,113</Data></Cell>
+    <Cell><Data ss:Type="Number">64.900000000000006</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">89,113</Data></Cell>
+    <Cell><Data ss:Type="Number">57.9</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">3,83</Data></Cell>
+    <Cell><Data ss:Type="Number">57.9</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">83,113</Data></Cell>
+    <Cell ss:Index="20"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">504</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">MAR</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Morocco</Data></Cell>
+    <Cell><Data ss:Type="Number">37.4</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">24,113</Data></Cell>
+    <Cell><Data ss:Type="Number">35.200000000000003</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">24,113</Data></Cell>
+    <Cell><Data ss:Type="Number">24.2</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">24,113</Data></Cell>
+    <Cell><Data ss:Type="Number">13.1</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">12,39,113</Data></Cell>
+    <Cell><Data ss:Type="Number">13.1</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">39,113</Data></Cell>
+    <Cell><Data ss:Type="Number">13.1</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">39,113</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">508</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">MOZ</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Mozambique</Data></Cell>
+    <Cell><Data ss:Type="Number">75.599999999999994</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">66</Data></Cell>
+    <Cell><Data ss:Type="Number">76.900000000000006</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">66</Data></Cell>
+    <Cell><Data ss:Type="Number">78.2</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">66</Data></Cell>
+    <Cell><Data ss:Type="Number">79.5</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">12,66,113</Data></Cell>
+    <Cell><Data ss:Type="Number">80</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">66,113</Data></Cell>
+    <Cell><Data ss:Type="Number">80.5</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">66,113</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">104</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">MMR</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Myanmar</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">45.6</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">5,81</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="20"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">516</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">NAM</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Namibia</Data></Cell>
+    <Cell><Data ss:Type="Number">34.4</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">45</Data></Cell>
+    <Cell><Data ss:Type="Number">34.1</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">45</Data></Cell>
+    <Cell><Data ss:Type="Number">33.9</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">45</Data></Cell>
+    <Cell><Data ss:Type="Number">33.9</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">45,113</Data></Cell>
+    <Cell><Data ss:Type="Number">33.6</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">45,113</Data></Cell>
+    <Cell><Data ss:Type="Number">33.5</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">45,113</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">524</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">NPL</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Nepal</Data></Cell>
+    <Cell><Data ss:Type="Number">70.599999999999994</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">60,80</Data></Cell>
+    <Cell><Data ss:Type="Number">67.3</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">60,80</Data></Cell>
+    <Cell><Data ss:Type="Number">64</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">60,80</Data></Cell>
+    <Cell><Data ss:Type="Number">60.7</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">60,80</Data></Cell>
+    <Cell><Data ss:Type="Number">59.4</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">60,113</Data></Cell>
+    <Cell><Data ss:Type="Number">58.1</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">60,113</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">558</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">NIC</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Nicaragua</Data></Cell>
+    <Cell><Data ss:Type="Number">89.1</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">68</Data></Cell>
+    <Cell><Data ss:Type="Number">74.5</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">68</Data></Cell>
+    <Cell><Data ss:Type="Number">60</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">68</Data></Cell>
+    <Cell><Data ss:Type="Number">45.5</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">68,110</Data></Cell>
+    <Cell><Data ss:Type="Number">45.5</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">68</Data></Cell>
+    <Cell ss:Index="20"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">562</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">NER</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Niger</Data></Cell>
+    <Cell><Data ss:Type="Number">83.6</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">38</Data></Cell>
+    <Cell><Data ss:Type="Number">83.1</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">38</Data></Cell>
+    <Cell><Data ss:Type="Number">82.6</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">38</Data></Cell>
+    <Cell><Data ss:Type="Number">82.1</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">108,113</Data></Cell>
+    <Cell><Data ss:Type="Number">81.900000000000006</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">108,113</Data></Cell>
+    <Cell><Data ss:Type="Number">81.7</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">108,113</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">566</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">NGA</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Nigeria</Data></Cell>
+    <Cell><Data ss:Type="Number">77.3</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">31</Data></Cell>
+    <Cell><Data ss:Type="Number">73.5</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">31</Data></Cell>
+    <Cell><Data ss:Type="Number">69.599999999999994</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">31</Data></Cell>
+    <Cell><Data ss:Type="Number">65.8</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">71,113</Data></Cell>
+    <Cell><Data ss:Type="Number">64.2</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">71,113</Data></Cell>
+    <Cell><Data ss:Type="Number">62.7</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">71,113</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">586</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">PAK</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Pakistan</Data></Cell>
+    <Cell><Data ss:Type="Number">51</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">32</Data></Cell>
+    <Cell><Data ss:Type="Number">49.8</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">32</Data></Cell>
+    <Cell><Data ss:Type="Number">48.7</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">32</Data></Cell>
+    <Cell><Data ss:Type="Number">47.5</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">96</Data></Cell>
+    <Cell><Data ss:Type="Number">47</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">96</Data></Cell>
+    <Cell><Data ss:Type="Number">46.6</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">96,113</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">591</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">PAN</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Panama</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">23</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">96</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="20"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">600</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">PRY</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Paraguay</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">17.600000000000001</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">96</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="20"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">604</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">PER</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Peru</Data></Cell>
+    <Cell><Data ss:Type="Number">66.400000000000006</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">42</Data></Cell>
+    <Cell><Data ss:Type="Number">56.3</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">42</Data></Cell>
+    <Cell><Data ss:Type="Number">46.2</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">42</Data></Cell>
+    <Cell><Data ss:Type="Number">36.1</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">73,88</Data></Cell>
+    <Cell><Data ss:Type="Number">36.1</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">73</Data></Cell>
+    <Cell ss:Index="20"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">608</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">PHL</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Philippines</Data></Cell>
+    <Cell><Data ss:Type="Number">54.3</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">50</Data></Cell>
+    <Cell><Data ss:Type="Number">50.8</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">50</Data></Cell>
+    <Cell><Data ss:Type="Number">47.2</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">50</Data></Cell>
+    <Cell><Data ss:Type="Number">43.7</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">11,51</Data></Cell>
+    <Cell><Data ss:Type="Number">42.3</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">51,113</Data></Cell>
+    <Cell><Data ss:Type="Number">40.9</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">51,113</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">646</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">RWA</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Rwanda</Data></Cell>
+    <Cell><Data ss:Type="Number">96</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">45</Data></Cell>
+    <Cell><Data ss:Type="Number">87.9</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">45</Data></Cell>
+    <Cell><Data ss:Type="Number">79.7</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">45</Data></Cell>
+    <Cell><Data ss:Type="Number">71.599999999999994</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">76</Data></Cell>
+    <Cell><Data ss:Type="Number">68.3</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">76</Data></Cell>
+    <Cell><Data ss:Type="Number">65.099999999999994</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">76,113</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">662</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">LCA</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Saint Lucia</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">11.9</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">96</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="20"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">682</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">SAU</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Saudi Arabia</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">18</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">96</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="20"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">686</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">SEN</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Senegal</Data></Cell>
+    <Cell><Data ss:Type="Number">70.599999999999994</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">46</Data></Cell>
+    <Cell><Data ss:Type="Number">59.8</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">46</Data></Cell>
+    <Cell><Data ss:Type="Number">48.9</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">46</Data></Cell>
+    <Cell><Data ss:Type="Number">43.3</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">12,76</Data></Cell>
+    <Cell><Data ss:Type="Number">41.1</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">99,113</Data></Cell>
+    <Cell><Data ss:Type="Number">38.799999999999997</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">99,113</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">694</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">SLE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Sierra Leone</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">97</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">14,81</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="20"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">706</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">SOM</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Somalia</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">73.5</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">111</Data></Cell>
+    <Cell><Data ss:Type="Number">73.599999999999994</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">111,113</Data></Cell>
+    <Cell><Data ss:Type="Number">73.599999999999994</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">111,113</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">710</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">ZAF</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">South Africa</Data></Cell>
+    <Cell><Data ss:Type="Number">46.2</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">67</Data></Cell>
+    <Cell><Data ss:Type="Number">39.700000000000003</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">67</Data></Cell>
+    <Cell><Data ss:Type="Number">33.200000000000003</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">67</Data></Cell>
+    <Cell><Data ss:Type="Number">28.7</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">70,113</Data></Cell>
+    <Cell><Data ss:Type="Number">23</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">95</Data></Cell>
+    <Cell><Data ss:Type="Number">23</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">95</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">740</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">SUR</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Suriname</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">3.9</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">4,81</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="20"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">760</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">SYR</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Syrian Arab Republic</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">10.5</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">96</Data></Cell>
+    <Cell><Data ss:Type="Number">22.5</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">111</Data></Cell>
+    <Cell ss:Index="20"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">764</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">THA</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Thailand</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">26</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">5,86</Data></Cell>
+    <Cell><Data ss:Type="Number">26.5</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">111</Data></Cell>
+    <Cell><Data ss:Type="Number">27</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">111</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">768</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">TGO</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Togo</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">62.1</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">12,108,113</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="20"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">780</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">TTO</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Trinidad and Tobago</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">24.7</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">96</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="20"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">792</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">TUR</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Turkey</Data></Cell>
+    <Cell><Data ss:Type="Number">23.4</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">48</Data></Cell>
+    <Cell><Data ss:Type="Number">20.7</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">48</Data></Cell>
+    <Cell><Data ss:Type="Number">17.899999999999999</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">48</Data></Cell>
+    <Cell><Data ss:Type="Number">15.5</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">9,47</Data></Cell>
+    <Cell><Data ss:Type="Number">14.1</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">9,47</Data></Cell>
+    <Cell><Data ss:Type="Number">13</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">47,113</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">800</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">UGA</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Uganda</Data></Cell>
+    <Cell><Data ss:Type="Number">75</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">26</Data></Cell>
+    <Cell><Data ss:Type="Number">75</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">26</Data></Cell>
+    <Cell><Data ss:Type="Number">75</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">26</Data></Cell>
+    <Cell><Data ss:Type="Number">66.7</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">12,58,113</Data></Cell>
+    <Cell><Data ss:Type="Number">63.4</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">58,113</Data></Cell>
+    <Cell><Data ss:Type="Number">60.1</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">58,113</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">834</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">TZA</Data></Cell>
+    <Cell><Data ss:Type="String">Tanzania, United Republic of</Data></Cell>
+    <Cell><Data ss:Type="Number">77.400000000000006</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">41</Data></Cell>
+    <Cell><Data ss:Type="Number">73.7</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">41</Data></Cell>
+    <Cell><Data ss:Type="Number">70.099999999999994</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">41</Data></Cell>
+    <Cell><Data ss:Type="Number">66.400000000000006</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">12,41,113</Data></Cell>
+    <Cell><Data ss:Type="Number">65</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">41,113</Data></Cell>
+    <Cell><Data ss:Type="Number">63.5</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">41,113</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">862</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">VEN</Data></Cell>
+    <Cell><Data ss:Type="String">Venezuela, Bolivarian Republic of</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">32</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">18</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="20"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">704</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">VNM</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Viet Nam</Data></Cell>
+    <Cell><Data ss:Type="Number">60.5</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">64</Data></Cell>
+    <Cell><Data ss:Type="Number">54.6</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">64</Data></Cell>
+    <Cell><Data ss:Type="Number">48.8</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">64</Data></Cell>
+    <Cell><Data ss:Type="Number">41.3</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">65</Data></Cell>
+    <Cell><Data ss:Type="Number">38.299999999999997</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">65</Data></Cell>
+    <Cell><Data ss:Type="Number">35.200000000000003</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">65</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">887</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">YEM</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Yemen</Data></Cell>
+    <Cell ss:Index="5"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="Number">67.2</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">96</Data></Cell>
+    <Cell><Data ss:Type="Number">76.8</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">111</Data></Cell>
+    <Cell ss:Index="20"><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">894</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">ZMB</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Zambia</Data></Cell>
+    <Cell><Data ss:Type="Number">57</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">40</Data></Cell>
+    <Cell><Data ss:Type="Number">57.1</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">40</Data></Cell>
+    <Cell><Data ss:Type="Number">57.2</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">40</Data></Cell>
+    <Cell><Data ss:Type="Number">57.2</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">12,43</Data></Cell>
+    <Cell><Data ss:Type="Number">57.3</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">43</Data></Cell>
+    <Cell><Data ss:Type="Number">57.3</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">43</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">716</Data></Cell>
+    <Cell ss:StyleID="s64" ss:Formula="=VLOOKUP(RC[1],ISO3!C:C[1],2,0)"><Data
+      ss:Type="String">ZWE</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Zimbabwe</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">54</Data></Cell>
+    <Cell><Data ss:Type="Number">3.7</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">54</Data></Cell>
+    <Cell><Data ss:Type="Number">3.3</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">54</Data></Cell>
+    <Cell><Data ss:Type="Number">17.899999999999999</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">76,91</Data></Cell>
+    <Cell><Data ss:Type="Number">21</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">101,113</Data></Cell>
+    <Cell><Data ss:Type="Number">24.1</Data></Cell>
+    <Cell><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">101,113</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Selected/>
+   <FreezePanes/>
+   <FrozenNoSplit/>
+   <SplitHorizontal>2</SplitHorizontal>
+   <TopRowBottomPane>18</TopRowBottomPane>
+   <ActivePane>2</ActivePane>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+    <Pane>
+     <Number>2</Number>
+     <ActiveRow>58</ActiveRow>
+     <ActiveCol>6</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Appendix">
+  <Table ss:ExpandedColumnCount="4" ss:ExpandedRowCount="124" x:FullColumns="1"
+   x:FullRows="1">
+   <Column ss:Hidden="1"/>
+   <Column ss:Width="40"/>
+   <Row ss:StyleID="s62">
+    <Cell><Data ss:Type="String">Id</Data></Cell>
+    <Cell><Data ss:Type="String">Ref</Data></Cell>
+    <Cell><Data ss:Type="String">Footnote</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">36252</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+    <Cell><Data ss:Type="String">In 1990 and 2001 estimates, only two shelter components (Water &amp; sanitation), from National survey/Census were used. Four shelter components (water, sanitation, sufficient living and durable housing) from MICS 2000 were used to estimate 2005 Slum.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">36253</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+    <Cell><Data ss:Type="String">In 1990 and 2001 slum estimates were based only on two shelter components (Water &amp; sanitation) from WHO UNICEF JMP Water and Sanitation 1990 and 2000 report. Four shelter components (water, sanitation, sufficient living and durable housing) were used to estimate 2005 Slum.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">36254</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+    <Cell><Data ss:Type="String">In 1990 and 2001 slum estimates, only two shelter components (Water &amp; sanitation), from UNICEF/WHO were used. Four shelter components (water, sanitation, sufficient living and durable housing) from MICS 2000 were used to estimate 2005 Slum.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">36255</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+    <Cell><Data ss:Type="String">In 1990 and 2001 slum estimates, only two shelter components (Water &amp; sanitation), from UNICEF/WHO were used. Four shelter components (water, sanitation, sufficient living and durable housing) MICS 2000 were used to estimate 2005 Slum.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">36256</Data></Cell>
+    <Cell><Data ss:Type="Number">5</Data></Cell>
+    <Cell><Data ss:Type="String">In 1990 and 2001 slum estimates, only two shelter components (Water &amp; sanitation), from UNICEF/WHO were used. Four shelter components (water, sanitation, sufficient living and durable housing) were used to estimate 2005 Slum.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">36257</Data></Cell>
+    <Cell><Data ss:Type="Number">6</Data></Cell>
+    <Cell><Data ss:Type="String">In 1990 and 2001 slum estimates, only two shelter components (Water &amp; sanitation), from UNICEF/WHO were used. Three shelter components (water, sanitation and durable housing) from MICS 2000 were used to estimate 2005 Slum.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">36258</Data></Cell>
+    <Cell><Data ss:Type="Number">7</Data></Cell>
+    <Cell><Data ss:Type="String">In 1990 and 2001 slum estimates, only two shelter components (Water &amp; sanitation), UNICEF/WHO were used. Three shelter components (water, sanitation and sufficient living) from MICS 2000 were used to estimate 2005 Slum.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">36260</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+    <Cell><Data ss:Type="String">In 1990 and 2001, only two shelter components (Water &amp; sanitation), UNICEF/WHO were used. Three shelter components (water, sanitation and sufficient living) from MICS 2000 were used to estimate 2005 Slum.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">36262</Data></Cell>
+    <Cell><Data ss:Type="Number">9</Data></Cell>
+    <Cell><Data ss:Type="String">In Turkey, the proporion of household using bottle water for drinking is high (more than 25%). Bottle is considered as improved.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">36268</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+    <Cell><Data ss:Type="String">Simulation was used to compute sufficient living for 2001 and then Trend Analysis to estimate 2005 slum.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">36269</Data></Cell>
+    <Cell><Data ss:Type="Number">11</Data></Cell>
+    <Cell><Data ss:Type="String">Simulation was used to compute sufficient living for 2003. Trend Analysis used to estimate 2005 slum.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">36343</Data></Cell>
+    <Cell><Data ss:Type="Number">12</Data></Cell>
+    <Cell><Data ss:Type="String">The decrease in the percentage of slum dwellers is mostly due to a change in the definition of adequate sanitation. In 2005, only a proportion of households using pit latrines were considered slum households,&#160;whereas in 1990 and 2001 all households using pit latrines were counted as slum households.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">36344</Data></Cell>
+    <Cell><Data ss:Type="Number">13</Data></Cell>
+    <Cell><Data ss:Type="String">There was an increased in finished floor by 8% and sanitation 6.7% from 1995 to 1998. Trend Analysis was used to estimate 2005 slum.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">36345</Data></Cell>
+    <Cell><Data ss:Type="Number">14</Data></Cell>
+    <Cell><Data ss:Type="String">Trend Analysis used to estimate 2005 slum.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">36348</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+    <Cell><Data ss:Type="String">Used DHS 2004 to estimate 2005 slum.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41139</Data></Cell>
+    <Cell><Data ss:Type="Number">16</Data></Cell>
+    <Cell><Data ss:Type="String">AIS 2005</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41141</Data></Cell>
+    <Cell><Data ss:Type="Number">17</Data></Cell>
+    <Cell><Data ss:Type="String">Bottled water was used in 2005 slum estimates.  Trend Analysis was used to estimate 2005 slum</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41142</Data></Cell>
+    <Cell><Data ss:Type="Number">18</Data></Cell>
+    <Cell><Data ss:Type="String">Census 1990, 2000, MICS 2000 and other sources</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41143</Data></Cell>
+    <Cell><Data ss:Type="Number">19</Data></Cell>
+    <Cell><Data ss:Type="String">Census 2000 and other sources</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41145</Data></Cell>
+    <Cell><Data ss:Type="Number">20</Data></Cell>
+    <Cell><Data ss:Type="String">Census 2002</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41147</Data></Cell>
+    <Cell><Data ss:Type="Number">21</Data></Cell>
+    <Cell><Data ss:Type="String">Decrease in access to improved water by 12.8%  from 1997 to 2002. Trend Analysis used to estimate 2005 slum.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41148</Data></Cell>
+    <Cell><Data ss:Type="Number">22</Data></Cell>
+    <Cell><Data ss:Type="String">DHS 1986, 1991, 1996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41149</Data></Cell>
+    <Cell><Data ss:Type="Number">23</Data></Cell>
+    <Cell><Data ss:Type="String">DHS 1987, 1995/96, 2001</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41150</Data></Cell>
+    <Cell><Data ss:Type="Number">24</Data></Cell>
+    <Cell><Data ss:Type="String">DHS 1987/88, 1992</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41151</Data></Cell>
+    <Cell><Data ss:Type="Number">25</Data></Cell>
+    <Cell><Data ss:Type="String">DHS 1988, 1993, 1998</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41152</Data></Cell>
+    <Cell><Data ss:Type="Number">26</Data></Cell>
+    <Cell><Data ss:Type="String">DHS 1988, 1995, 2001</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41153</Data></Cell>
+    <Cell><Data ss:Type="Number">27</Data></Cell>
+    <Cell><Data ss:Type="String">DHS 1989, 1994, 1998</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41154</Data></Cell>
+    <Cell><Data ss:Type="Number">28</Data></Cell>
+    <Cell><Data ss:Type="String">DHS 1989, 1994, 1998, 2003</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41155</Data></Cell>
+    <Cell><Data ss:Type="Number">29</Data></Cell>
+    <Cell><Data ss:Type="String">DHS 1990</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41156</Data></Cell>
+    <Cell><Data ss:Type="Number">30</Data></Cell>
+    <Cell><Data ss:Type="String">DHS 1990, 1997, 2002</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41157</Data></Cell>
+    <Cell><Data ss:Type="Number">31</Data></Cell>
+    <Cell><Data ss:Type="String">DHS 1990, 1999</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41158</Data></Cell>
+    <Cell><Data ss:Type="Number">32</Data></Cell>
+    <Cell><Data ss:Type="String">DHS 1990/91, other sources</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41159</Data></Cell>
+    <Cell><Data ss:Type="Number">33</Data></Cell>
+    <Cell><Data ss:Type="String">DHS 1991</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41160</Data></Cell>
+    <Cell><Data ss:Type="Number">34</Data></Cell>
+    <Cell><Data ss:Type="String">DHS 1991, 1994, 1997</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41161</Data></Cell>
+    <Cell><Data ss:Type="Number">35</Data></Cell>
+    <Cell><Data ss:Type="String">DHS 1991, 1994, 1997, 2003</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41162</Data></Cell>
+    <Cell><Data ss:Type="Number">36</Data></Cell>
+    <Cell><Data ss:Type="String">DHS 1991, 1996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41163</Data></Cell>
+    <Cell><Data ss:Type="Number">37</Data></Cell>
+    <Cell><Data ss:Type="String">DHS 1991, 1996, 2002</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41165</Data></Cell>
+    <Cell><Data ss:Type="Number">38</Data></Cell>
+    <Cell><Data ss:Type="String">DHS 1991/92, 1997/98</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41166</Data></Cell>
+    <Cell><Data ss:Type="Number">39</Data></Cell>
+    <Cell><Data ss:Type="String">DHS 1992,  2004</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41167</Data></Cell>
+    <Cell><Data ss:Type="Number">40</Data></Cell>
+    <Cell><Data ss:Type="String">DHS 1992, 1996</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41168</Data></Cell>
+    <Cell><Data ss:Type="Number">41</Data></Cell>
+    <Cell><Data ss:Type="String">DHS 1992, 1996, 1999</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41169</Data></Cell>
+    <Cell><Data ss:Type="Number">42</Data></Cell>
+    <Cell><Data ss:Type="String">DHS 1992, 1996, 2000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41170</Data></Cell>
+    <Cell><Data ss:Type="Number">43</Data></Cell>
+    <Cell><Data ss:Type="String">DHS 1992, 1996, 2001/2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41171</Data></Cell>
+    <Cell><Data ss:Type="Number">44</Data></Cell>
+    <Cell><Data ss:Type="String">DHS 1992, 1999</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41172</Data></Cell>
+    <Cell><Data ss:Type="Number">45</Data></Cell>
+    <Cell><Data ss:Type="String">DHS 1992, 2000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41173</Data></Cell>
+    <Cell><Data ss:Type="Number">46</Data></Cell>
+    <Cell><Data ss:Type="String">DHS 1992/93, 1997, 1999</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41174</Data></Cell>
+    <Cell><Data ss:Type="Number">47</Data></Cell>
+    <Cell><Data ss:Type="String">DHS 1993, 1993, 2003</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41175</Data></Cell>
+    <Cell><Data ss:Type="Number">48</Data></Cell>
+    <Cell><Data ss:Type="String">DHS 1993, 1998</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41176</Data></Cell>
+    <Cell><Data ss:Type="Number">49</Data></Cell>
+    <Cell><Data ss:Type="String">DHS 1993, 1998, 2003</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41177</Data></Cell>
+    <Cell><Data ss:Type="Number">50</Data></Cell>
+    <Cell><Data ss:Type="String">DHS 1993, 1998, MICS 2000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41178</Data></Cell>
+    <Cell><Data ss:Type="Number">51</Data></Cell>
+    <Cell><Data ss:Type="String">DHS 1993, 1998, MICS 2000, DHS 2003</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41179</Data></Cell>
+    <Cell><Data ss:Type="Number">52</Data></Cell>
+    <Cell><Data ss:Type="String">DHS 1993, 1998/99</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41180</Data></Cell>
+    <Cell><Data ss:Type="Number">53</Data></Cell>
+    <Cell><Data ss:Type="String">DHS 1993/94, 1996/97, 1999/2000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41182</Data></Cell>
+    <Cell><Data ss:Type="Number">54</Data></Cell>
+    <Cell><Data ss:Type="String">DHS 1994, 1998/99</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41183</Data></Cell>
+    <Cell><Data ss:Type="Number">55</Data></Cell>
+    <Cell><Data ss:Type="String">DHS 1994, MICS 2000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41184</Data></Cell>
+    <Cell><Data ss:Type="Number">56</Data></Cell>
+    <Cell><Data ss:Type="String">DHS 1994/95, 2000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41185</Data></Cell>
+    <Cell><Data ss:Type="Number">57</Data></Cell>
+    <Cell><Data ss:Type="String">DHS 1995, 1998</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41186</Data></Cell>
+    <Cell><Data ss:Type="Number">58</Data></Cell>
+    <Cell><Data ss:Type="String">DHS 1995/96, 2001</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41187</Data></Cell>
+    <Cell><Data ss:Type="Number">59</Data></Cell>
+    <Cell><Data ss:Type="String">DHS 1996 and 2001</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41189</Data></Cell>
+    <Cell><Data ss:Type="Number">60</Data></Cell>
+    <Cell><Data ss:Type="String">DHS 1996, 2001, 2006</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41190</Data></Cell>
+    <Cell><Data ss:Type="Number">61</Data></Cell>
+    <Cell><Data ss:Type="String">DHS 1996, UNICEF/WHO JMP Water and Sanitation</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41191</Data></Cell>
+    <Cell><Data ss:Type="Number">62</Data></Cell>
+    <Cell><Data ss:Type="String">DHS 1996/97 and other sources</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41192</Data></Cell>
+    <Cell><Data ss:Type="Number">63</Data></Cell>
+    <Cell><Data ss:Type="String">DHS 1996/97, 2004</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41193</Data></Cell>
+    <Cell><Data ss:Type="Number">64</Data></Cell>
+    <Cell><Data ss:Type="String">DHS 1997, 2002, MICS 2000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41194</Data></Cell>
+    <Cell><Data ss:Type="Number">65</Data></Cell>
+    <Cell><Data ss:Type="String">DHS 1997, 2002, MICS 2000, 2006</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41195</Data></Cell>
+    <Cell><Data ss:Type="Number">66</Data></Cell>
+    <Cell><Data ss:Type="String">DHS 1997, 2003</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41196</Data></Cell>
+    <Cell><Data ss:Type="Number">67</Data></Cell>
+    <Cell><Data ss:Type="String">DHS 1998 and other sources</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41197</Data></Cell>
+    <Cell><Data ss:Type="Number">68</Data></Cell>
+    <Cell><Data ss:Type="String">DHS 1998, 2001</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41198</Data></Cell>
+    <Cell><Data ss:Type="Number">69</Data></Cell>
+    <Cell><Data ss:Type="String">DHS 1998, 2004</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41199</Data></Cell>
+    <Cell><Data ss:Type="Number">70</Data></Cell>
+    <Cell><Data ss:Type="String">DHS 1998, Census 2001</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41200</Data></Cell>
+    <Cell><Data ss:Type="Number">71</Data></Cell>
+    <Cell><Data ss:Type="String">DHS 1999, 2003</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41201</Data></Cell>
+    <Cell><Data ss:Type="Number">72</Data></Cell>
+    <Cell><Data ss:Type="String">DHS 2000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41202</Data></Cell>
+    <Cell><Data ss:Type="Number">73</Data></Cell>
+    <Cell><Data ss:Type="String">DHS 2000, 2004</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41203</Data></Cell>
+    <Cell><Data ss:Type="Number">74</Data></Cell>
+    <Cell><Data ss:Type="String">DHS 2000/2001 and other sources</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41204</Data></Cell>
+    <Cell><Data ss:Type="Number">75</Data></Cell>
+    <Cell><Data ss:Type="String">DHS 2004</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41205</Data></Cell>
+    <Cell><Data ss:Type="Number">76</Data></Cell>
+    <Cell><Data ss:Type="String">DHS 2005</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41206</Data></Cell>
+    <Cell><Data ss:Type="Number">77</Data></Cell>
+    <Cell><Data ss:Type="String">DHS 2005 and other sources</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41209</Data></Cell>
+    <Cell><Data ss:Type="Number">78</Data></Cell>
+    <Cell><Data ss:Type="String">In 1990 and 2001, only three shelter components, Water&amp; sanitation from UNICEF/WHO &amp; sufficient living area from UNSD,  were used. Four shelter components (water, sanitation, sufficient living area and durable housing) from DHS 2005 were used to estimate 2005 Slum.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41210</Data></Cell>
+    <Cell><Data ss:Type="Number">79</Data></Cell>
+    <Cell><Data ss:Type="String">In 1990 and 2001slum estimates, only three shelter components, Water&amp; sanitation from UNICEF/WHO &amp; sufficient living area from UNSD,  were used. Three shelter components (water, sanitation and sufficient living area) from MICS 2000 were used to estimate 2005 Slum.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41212</Data></Cell>
+    <Cell><Data ss:Type="Number">80</Data></Cell>
+    <Cell><Data ss:Type="String">Increase in access to improved sanitation by 46.3% and increase of access to improved durable housing by 8.5%  from 1996 to 2001. Simulation was used to compute sufficient living for 2001 and then Trend Analysis to estimate 2005 slum.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41214</Data></Cell>
+    <Cell><Data ss:Type="Number">81</Data></Cell>
+    <Cell><Data ss:Type="String">MICS 2000 and other sources</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41215</Data></Cell>
+    <Cell><Data ss:Type="Number">82</Data></Cell>
+    <Cell><Data ss:Type="String">MICS 2000, 2006</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41217</Data></Cell>
+    <Cell><Data ss:Type="Number">83</Data></Cell>
+    <Cell><Data ss:Type="String">MICS 2000, MICS 2005</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41218</Data></Cell>
+    <Cell><Data ss:Type="Number">84</Data></Cell>
+    <Cell><Data ss:Type="String">MICS 2000, SWCR 2006/7</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41219</Data></Cell>
+    <Cell><Data ss:Type="Number">85</Data></Cell>
+    <Cell><Data ss:Type="String">MICS 2005</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41220</Data></Cell>
+    <Cell><Data ss:Type="Number">86</Data></Cell>
+    <Cell><Data ss:Type="String">MICS 2005/2006</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41221</Data></Cell>
+    <Cell><Data ss:Type="Number">87</Data></Cell>
+    <Cell><Data ss:Type="String">Number of sleeping rooms was not collected in some DHS surveys. Countries with other data sets with information on number of sleeping rooms, Simulation method was used to estimate the proportion of households with sufficient leaving areas. .</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41223</Data></Cell>
+    <Cell><Data ss:Type="Number">88</Data></Cell>
+    <Cell><Data ss:Type="String">Trend analysis was used to estimate 2005 slum.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41225</Data></Cell>
+    <Cell><Data ss:Type="Number">89</Data></Cell>
+    <Cell><Data ss:Type="String">UNICEF/WHO JMP Water and Sanitation</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41226</Data></Cell>
+    <Cell><Data ss:Type="Number">90</Data></Cell>
+    <Cell><Data ss:Type="String">DHS 1990, 2000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41227</Data></Cell>
+    <Cell><Data ss:Type="Number">91</Data></Cell>
+    <Cell><Data ss:Type="String">Increase due to increase of overcrowding</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">41228</Data></Cell>
+    <Cell><Data ss:Type="Number">92</Data></Cell>
+    <Cell><Data ss:Type="String">MICS 2000</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">43864</Data></Cell>
+    <Cell><Data ss:Type="Number">93</Data></Cell>
+    <Cell><Data ss:Type="String">All four components, water, sanitation durable housing and sufficient living area.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">43865</Data></Cell>
+    <Cell><Data ss:Type="Number">94</Data></Cell>
+    <Cell><Data ss:Type="String">Census 2001 and UNICEF/WHO Water and Sanitation Report.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">43866</Data></Cell>
+    <Cell><Data ss:Type="Number">95</Data></Cell>
+    <Cell><Data ss:Type="String">CENSUS 2007</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">43867</Data></Cell>
+    <Cell><Data ss:Type="Number">96</Data></Cell>
+    <Cell><Data ss:Type="String">Computed from the Annex of the State of the World's Cities Report 2006/7.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">43868</Data></Cell>
+    <Cell><Data ss:Type="Number">97</Data></Cell>
+    <Cell><Data ss:Type="String">DHS 2004, 2007</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">43869</Data></Cell>
+    <Cell><Data ss:Type="Number">98</Data></Cell>
+    <Cell><Data ss:Type="String">DHS 2004, 2009</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">43870</Data></Cell>
+    <Cell><Data ss:Type="Number">99</Data></Cell>
+    <Cell><Data ss:Type="String">DHS 2005, 2008</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">43871</Data></Cell>
+    <Cell><Data ss:Type="Number">100</Data></Cell>
+    <Cell><Data ss:Type="String">DHS 2005, 2009</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">43872</Data></Cell>
+    <Cell><Data ss:Type="Number">101</Data></Cell>
+    <Cell><Data ss:Type="String">DHS 2005, 2010/11</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">43873</Data></Cell>
+    <Cell><Data ss:Type="Number">102</Data></Cell>
+    <Cell><Data ss:Type="String">DHS 2006/7</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">43874</Data></Cell>
+    <Cell><Data ss:Type="Number">103</Data></Cell>
+    <Cell><Data ss:Type="String">DHS 2006/7, 2011</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">43875</Data></Cell>
+    <Cell><Data ss:Type="Number">104</Data></Cell>
+    <Cell><Data ss:Type="String">DHS 2007</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">43876</Data></Cell>
+    <Cell><Data ss:Type="Number">105</Data></Cell>
+    <Cell><Data ss:Type="String">DHS 2009</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">43877</Data></Cell>
+    <Cell><Data ss:Type="Number">106</Data></Cell>
+    <Cell><Data ss:Type="String">Estimation based on three components Water, Sanitation and sufficient living area.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">43878</Data></Cell>
+    <Cell><Data ss:Type="Number">107</Data></Cell>
+    <Cell><Data ss:Type="String">Estimation based on two components Water and Sanitation.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">43879</Data></Cell>
+    <Cell><Data ss:Type="Number">108</Data></Cell>
+    <Cell><Data ss:Type="String">ICS 2000, DHS 1998</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">43880</Data></Cell>
+    <Cell><Data ss:Type="Number">109</Data></Cell>
+    <Cell><Data ss:Type="String">Increase in access to improved sanitation by 14.2% and increase of access to improved durable housing by 15.5% and sufficient living by 5.2% from 1998 to 2004. Trend analysis was used to estimate 2005 slum.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">43881</Data></Cell>
+    <Cell><Data ss:Type="Number">110</Data></Cell>
+    <Cell><Data ss:Type="String">Increase in access to improved water by 9.4%; access to improved sanitation by 6.1%; increase of access to improved durable housing by 15.6% and sufficient living by 3.5 % from 1998 to 2001. Trend analysis was used to estimate 2005 slum.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">43882</Data></Cell>
+    <Cell><Data ss:Type="Number">111</Data></Cell>
+    <Cell><Data ss:Type="String">MICS 2006</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">43883</Data></Cell>
+    <Cell><Data ss:Type="Number">112</Data></Cell>
+    <Cell><Data ss:Type="String">Sao Paolo UIS 2006, Census 2000 and DHS 1986, 1991, 1996.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">43884</Data></Cell>
+    <Cell><Data ss:Type="Number">113</Data></Cell>
+    <Cell><Data ss:Type="String">Trend analysis was used to estimate the percenatage of slum.</Data></Cell>
+   </Row>
+   <Row ss:Index="116" ss:StyleID="s62">
+    <Cell ss:Index="2"><Data ss:Type="String">Nature of Country Data</Data></Cell>
+   </Row>
+   <Row ss:StyleID="s62">
+    <Cell ss:Index="2"><Data ss:Type="String">Symbol</Data></Cell>
+    <Cell><Data ss:Type="String">Meaning</Data></Cell>
+    <Cell><Data ss:Type="String">Description</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">C</Data></Cell>
+    <Cell><Data ss:Type="String">Country Data</Data></Cell>
+    <Cell><Data ss:Type="String">The figure is the one produced and disseminated by the country (including data adjusted BY THE COUNTRY to meet international standards)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">CA</Data></Cell>
+    <Cell><Data ss:Type="String">Country Adjusted</Data></Cell>
+    <Cell><Data ss:Type="String">The figure is the one produced and provided by the country, but adjusted by the international agency for international comparability—that is to comply with internationally agreed standards, definitions and classifications (age group, ISCED, etc)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">E</Data></Cell>
+    <Cell><Data ss:Type="String">Estimated</Data></Cell>
+    <Cell><Data ss:Type="String">The figure is estimated by the international agency, when corresponding country data on a specific year or set of years are not available, or when multiple sources exist, or there are issues of data quality.  Estimates are based on national data, such as surveys or administrative records, or other sources but on the same variable being estimated.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">M</Data></Cell>
+    <Cell><Data ss:Type="String">Modeled</Data></Cell>
+    <Cell><Data ss:Type="String">The figure is by the agency when there is a complete lack of data on the variable being estimated. The model is based on a set of covariates—other variables for which data are available and that can explain the phenomenon (example: maternal mortality or slums, to a certain extent)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">G</Data></Cell>
+    <Cell><Data ss:Type="String">Global monitoring data</Data></Cell>
+    <Cell><Data ss:Type="String">The figure is regularly produced by the designated agency for the global monitoring, based on country data. However, there is no corresponding figure at the country level, because the indicator is defined for international monitoring only (example: population below 1$ a day)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">N</Data></Cell>
+    <Cell><Data ss:Type="String">Non-relevant</Data></Cell>
+    <Cell><Data ss:Type="String">The figure is not available because the indicator—as defined for the global monitoring—does not apply to the circumstances of the specific country, and therefore is not reported</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="2"><Data ss:Type="String">NA</Data></Cell>
+    <Cell><Data ss:Type="String">Not Available</Data></Cell>
+    <Cell><Data ss:Type="String">A figure was not provided, or the method by which the figure was calculated is unknown</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <LeftColumnVisible>1</LeftColumnVisible>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="ISO3">
+  <Table ss:ExpandedColumnCount="3" ss:ExpandedRowCount="193" x:FullColumns="1"
+   x:FullRows="1">
+   <Row>
+    <Cell><Data ss:Type="String">ISO_3</Data></Cell>
+    <Cell><Data ss:Type="String">Name</Data></Cell>
+    <Cell><Data ss:Type="String">ISO_3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AFG</Data></Cell>
+    <Cell><Data ss:Type="String">Afghanistan</Data></Cell>
+    <Cell><Data ss:Type="String">AFG</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ALB</Data></Cell>
+    <Cell><Data ss:Type="String">Albania</Data></Cell>
+    <Cell><Data ss:Type="String">ALB</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">DZA</Data></Cell>
+    <Cell><Data ss:Type="String">Algeria</Data></Cell>
+    <Cell><Data ss:Type="String">DZA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AND</Data></Cell>
+    <Cell><Data ss:Type="String">Andorra</Data></Cell>
+    <Cell><Data ss:Type="String">AND</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AGO</Data></Cell>
+    <Cell><Data ss:Type="String">Angola</Data></Cell>
+    <Cell><Data ss:Type="String">AGO</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ATG</Data></Cell>
+    <Cell><Data ss:Type="String">Antigua and Barbuda</Data></Cell>
+    <Cell><Data ss:Type="String">ATG</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ARG</Data></Cell>
+    <Cell><Data ss:Type="String">Argentina</Data></Cell>
+    <Cell><Data ss:Type="String">ARG</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ARM</Data></Cell>
+    <Cell><Data ss:Type="String">Armenia</Data></Cell>
+    <Cell><Data ss:Type="String">ARM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AUS</Data></Cell>
+    <Cell><Data ss:Type="String">Australia</Data></Cell>
+    <Cell><Data ss:Type="String">AUS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AUT</Data></Cell>
+    <Cell><Data ss:Type="String">Austria</Data></Cell>
+    <Cell><Data ss:Type="String">AUT</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">AZE</Data></Cell>
+    <Cell><Data ss:Type="String">Azerbaijan</Data></Cell>
+    <Cell><Data ss:Type="String">AZE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">BHS</Data></Cell>
+    <Cell><Data ss:Type="String">Bahamas</Data></Cell>
+    <Cell><Data ss:Type="String">BHS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">BHR</Data></Cell>
+    <Cell><Data ss:Type="String">Bahrain</Data></Cell>
+    <Cell><Data ss:Type="String">BHR</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">BGD</Data></Cell>
+    <Cell><Data ss:Type="String">Bangladesh</Data></Cell>
+    <Cell><Data ss:Type="String">BGD</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">BRB</Data></Cell>
+    <Cell><Data ss:Type="String">Barbados</Data></Cell>
+    <Cell><Data ss:Type="String">BRB</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">BLR</Data></Cell>
+    <Cell><Data ss:Type="String">Belarus</Data></Cell>
+    <Cell><Data ss:Type="String">BLR</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">BEL</Data></Cell>
+    <Cell><Data ss:Type="String">Belgium</Data></Cell>
+    <Cell><Data ss:Type="String">BEL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">BLZ</Data></Cell>
+    <Cell><Data ss:Type="String">Belize</Data></Cell>
+    <Cell><Data ss:Type="String">BLZ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">BEN</Data></Cell>
+    <Cell><Data ss:Type="String">Benin</Data></Cell>
+    <Cell><Data ss:Type="String">BEN</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">BTN</Data></Cell>
+    <Cell><Data ss:Type="String">Bhutan</Data></Cell>
+    <Cell><Data ss:Type="String">BTN</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">BOL</Data></Cell>
+    <Cell><Data ss:Type="String">Bolivia, Plurinational State of</Data></Cell>
+    <Cell><Data ss:Type="String">BOL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">BIH</Data></Cell>
+    <Cell><Data ss:Type="String">Bosnia and Herzegovina</Data></Cell>
+    <Cell><Data ss:Type="String">BIH</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">BWA</Data></Cell>
+    <Cell><Data ss:Type="String">Botswana</Data></Cell>
+    <Cell><Data ss:Type="String">BWA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">BRA</Data></Cell>
+    <Cell><Data ss:Type="String">Brazil</Data></Cell>
+    <Cell><Data ss:Type="String">BRA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">BRN</Data></Cell>
+    <Cell><Data ss:Type="String">Brunei Darussalam</Data></Cell>
+    <Cell><Data ss:Type="String">BRN</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">BGR</Data></Cell>
+    <Cell><Data ss:Type="String">Bulgaria</Data></Cell>
+    <Cell><Data ss:Type="String">BGR</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">BFA</Data></Cell>
+    <Cell><Data ss:Type="String">Burkina Faso</Data></Cell>
+    <Cell><Data ss:Type="String">BFA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">BDI</Data></Cell>
+    <Cell><Data ss:Type="String">Burundi</Data></Cell>
+    <Cell><Data ss:Type="String">BDI</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">KHM</Data></Cell>
+    <Cell><Data ss:Type="String">Cambodia</Data></Cell>
+    <Cell><Data ss:Type="String">KHM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CMR</Data></Cell>
+    <Cell><Data ss:Type="String">Cameroon</Data></Cell>
+    <Cell><Data ss:Type="String">CMR</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CAN</Data></Cell>
+    <Cell><Data ss:Type="String">Canada</Data></Cell>
+    <Cell><Data ss:Type="String">CAN</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CPV</Data></Cell>
+    <Cell><Data ss:Type="String">Cape Verde</Data></Cell>
+    <Cell><Data ss:Type="String">CPV</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CAF</Data></Cell>
+    <Cell><Data ss:Type="String">Central African Republic</Data></Cell>
+    <Cell><Data ss:Type="String">CAF</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">TCD</Data></Cell>
+    <Cell><Data ss:Type="String">Chad</Data></Cell>
+    <Cell><Data ss:Type="String">TCD</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CHL</Data></Cell>
+    <Cell><Data ss:Type="String">Chile</Data></Cell>
+    <Cell><Data ss:Type="String">CHL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CHN</Data></Cell>
+    <Cell><Data ss:Type="String">China</Data></Cell>
+    <Cell><Data ss:Type="String">CHN</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">COL</Data></Cell>
+    <Cell><Data ss:Type="String">Colombia</Data></Cell>
+    <Cell><Data ss:Type="String">COL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">COM</Data></Cell>
+    <Cell><Data ss:Type="String">Comoros</Data></Cell>
+    <Cell><Data ss:Type="String">COM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">COG</Data></Cell>
+    <Cell><Data ss:Type="String">Congo</Data></Cell>
+    <Cell><Data ss:Type="String">COG</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">COD</Data></Cell>
+    <Cell><Data ss:Type="String">Congo, the Democratic Republic of the</Data></Cell>
+    <Cell><Data ss:Type="String">COD</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CRI</Data></Cell>
+    <Cell><Data ss:Type="String">Costa Rica</Data></Cell>
+    <Cell><Data ss:Type="String">CRI</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CIV</Data></Cell>
+    <Cell><Data ss:Type="String">Côte d'Ivoire</Data></Cell>
+    <Cell><Data ss:Type="String">CIV</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HRV</Data></Cell>
+    <Cell><Data ss:Type="String">Croatia</Data></Cell>
+    <Cell><Data ss:Type="String">HRV</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CUB</Data></Cell>
+    <Cell><Data ss:Type="String">Cuba</Data></Cell>
+    <Cell><Data ss:Type="String">CUB</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CYP</Data></Cell>
+    <Cell><Data ss:Type="String">Cyprus</Data></Cell>
+    <Cell><Data ss:Type="String">CYP</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CZE</Data></Cell>
+    <Cell><Data ss:Type="String">Czech Republic</Data></Cell>
+    <Cell><Data ss:Type="String">CZE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">DNK</Data></Cell>
+    <Cell><Data ss:Type="String">Denmark</Data></Cell>
+    <Cell><Data ss:Type="String">DNK</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">DJI</Data></Cell>
+    <Cell><Data ss:Type="String">Djibouti</Data></Cell>
+    <Cell><Data ss:Type="String">DJI</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">DMA</Data></Cell>
+    <Cell><Data ss:Type="String">Dominica</Data></Cell>
+    <Cell><Data ss:Type="String">DMA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">DOM</Data></Cell>
+    <Cell><Data ss:Type="String">Dominican Republic</Data></Cell>
+    <Cell><Data ss:Type="String">DOM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ECU</Data></Cell>
+    <Cell><Data ss:Type="String">Ecuador</Data></Cell>
+    <Cell><Data ss:Type="String">ECU</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">EGY</Data></Cell>
+    <Cell><Data ss:Type="String">Egypt</Data></Cell>
+    <Cell><Data ss:Type="String">EGY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SLV</Data></Cell>
+    <Cell><Data ss:Type="String">El Salvador</Data></Cell>
+    <Cell><Data ss:Type="String">SLV</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">GNQ</Data></Cell>
+    <Cell><Data ss:Type="String">Equatorial Guinea</Data></Cell>
+    <Cell><Data ss:Type="String">GNQ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ERI</Data></Cell>
+    <Cell><Data ss:Type="String">Eritrea</Data></Cell>
+    <Cell><Data ss:Type="String">ERI</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">EST</Data></Cell>
+    <Cell><Data ss:Type="String">Estonia</Data></Cell>
+    <Cell><Data ss:Type="String">EST</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ETH</Data></Cell>
+    <Cell><Data ss:Type="String">Ethiopia</Data></Cell>
+    <Cell><Data ss:Type="String">ETH</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">FJI</Data></Cell>
+    <Cell><Data ss:Type="String">Fiji</Data></Cell>
+    <Cell><Data ss:Type="String">FJI</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">FIN</Data></Cell>
+    <Cell><Data ss:Type="String">Finland</Data></Cell>
+    <Cell><Data ss:Type="String">FIN</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">FRA</Data></Cell>
+    <Cell><Data ss:Type="String">France</Data></Cell>
+    <Cell><Data ss:Type="String">FRA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">GAB</Data></Cell>
+    <Cell><Data ss:Type="String">Gabon</Data></Cell>
+    <Cell><Data ss:Type="String">GAB</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">GMB</Data></Cell>
+    <Cell><Data ss:Type="String">Gambia</Data></Cell>
+    <Cell><Data ss:Type="String">GMB</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">GEO</Data></Cell>
+    <Cell><Data ss:Type="String">Georgia</Data></Cell>
+    <Cell><Data ss:Type="String">GEO</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">DEU</Data></Cell>
+    <Cell><Data ss:Type="String">Germany</Data></Cell>
+    <Cell><Data ss:Type="String">DEU</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">GHA</Data></Cell>
+    <Cell><Data ss:Type="String">Ghana</Data></Cell>
+    <Cell><Data ss:Type="String">GHA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">GRC</Data></Cell>
+    <Cell><Data ss:Type="String">Greece</Data></Cell>
+    <Cell><Data ss:Type="String">GRC</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">GRD</Data></Cell>
+    <Cell><Data ss:Type="String">Grenada</Data></Cell>
+    <Cell><Data ss:Type="String">GRD</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">GTM</Data></Cell>
+    <Cell><Data ss:Type="String">Guatemala</Data></Cell>
+    <Cell><Data ss:Type="String">GTM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">GIN</Data></Cell>
+    <Cell><Data ss:Type="String">Guinea</Data></Cell>
+    <Cell><Data ss:Type="String">GIN</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">GNB</Data></Cell>
+    <Cell><Data ss:Type="String">GuineaBissau</Data></Cell>
+    <Cell><Data ss:Type="String">GNB</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">GUY</Data></Cell>
+    <Cell><Data ss:Type="String">Guyana</Data></Cell>
+    <Cell><Data ss:Type="String">GUY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HTI</Data></Cell>
+    <Cell><Data ss:Type="String">Haiti</Data></Cell>
+    <Cell><Data ss:Type="String">HTI</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HND</Data></Cell>
+    <Cell><Data ss:Type="String">Honduras</Data></Cell>
+    <Cell><Data ss:Type="String">HND</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">HUN</Data></Cell>
+    <Cell><Data ss:Type="String">Hungary</Data></Cell>
+    <Cell><Data ss:Type="String">HUN</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ISL</Data></Cell>
+    <Cell><Data ss:Type="String">Iceland</Data></Cell>
+    <Cell><Data ss:Type="String">ISL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">IND</Data></Cell>
+    <Cell><Data ss:Type="String">India</Data></Cell>
+    <Cell><Data ss:Type="String">IND</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">IDN</Data></Cell>
+    <Cell><Data ss:Type="String">Indonesia</Data></Cell>
+    <Cell><Data ss:Type="String">IDN</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">IRN</Data></Cell>
+    <Cell><Data ss:Type="String">Iran, Islamic Republic of</Data></Cell>
+    <Cell><Data ss:Type="String">IRN</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">IRQ</Data></Cell>
+    <Cell><Data ss:Type="String">Iraq</Data></Cell>
+    <Cell><Data ss:Type="String">IRQ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">IRL</Data></Cell>
+    <Cell><Data ss:Type="String">Ireland</Data></Cell>
+    <Cell><Data ss:Type="String">IRL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ISR</Data></Cell>
+    <Cell><Data ss:Type="String">Israel</Data></Cell>
+    <Cell><Data ss:Type="String">ISR</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ITA</Data></Cell>
+    <Cell><Data ss:Type="String">Italy</Data></Cell>
+    <Cell><Data ss:Type="String">ITA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JAM</Data></Cell>
+    <Cell><Data ss:Type="String">Jamaica</Data></Cell>
+    <Cell><Data ss:Type="String">JAM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JPN</Data></Cell>
+    <Cell><Data ss:Type="String">Japan</Data></Cell>
+    <Cell><Data ss:Type="String">JPN</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">JOR</Data></Cell>
+    <Cell><Data ss:Type="String">Jordan</Data></Cell>
+    <Cell><Data ss:Type="String">JOR</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">KAZ</Data></Cell>
+    <Cell><Data ss:Type="String">Kazakhstan</Data></Cell>
+    <Cell><Data ss:Type="String">KAZ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">KEN</Data></Cell>
+    <Cell><Data ss:Type="String">Kenya</Data></Cell>
+    <Cell><Data ss:Type="String">KEN</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">KIR</Data></Cell>
+    <Cell><Data ss:Type="String">Kiribati</Data></Cell>
+    <Cell><Data ss:Type="String">KIR</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PRK</Data></Cell>
+    <Cell><Data ss:Type="String">Korea, Democratic People's Republic of</Data></Cell>
+    <Cell><Data ss:Type="String">PRK</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">KOR</Data></Cell>
+    <Cell><Data ss:Type="String">Korea, Republic of</Data></Cell>
+    <Cell><Data ss:Type="String">KOR</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">KWT</Data></Cell>
+    <Cell><Data ss:Type="String">Kuwait</Data></Cell>
+    <Cell><Data ss:Type="String">KWT</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">KGZ</Data></Cell>
+    <Cell><Data ss:Type="String">Kyrgyzstan</Data></Cell>
+    <Cell><Data ss:Type="String">KGZ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">LAO</Data></Cell>
+    <Cell><Data ss:Type="String">Lao People's Democratic Republic</Data></Cell>
+    <Cell><Data ss:Type="String">LAO</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">LVA</Data></Cell>
+    <Cell><Data ss:Type="String">Latvia</Data></Cell>
+    <Cell><Data ss:Type="String">LVA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">LBN</Data></Cell>
+    <Cell><Data ss:Type="String">Lebanon</Data></Cell>
+    <Cell><Data ss:Type="String">LBN</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">LSO</Data></Cell>
+    <Cell><Data ss:Type="String">Lesotho</Data></Cell>
+    <Cell><Data ss:Type="String">LSO</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">LBR</Data></Cell>
+    <Cell><Data ss:Type="String">Liberia</Data></Cell>
+    <Cell><Data ss:Type="String">LBR</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">LBY</Data></Cell>
+    <Cell><Data ss:Type="String">Libyan Arab Jamahiriya</Data></Cell>
+    <Cell><Data ss:Type="String">LBY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">LIE</Data></Cell>
+    <Cell><Data ss:Type="String">Liechtenstein</Data></Cell>
+    <Cell><Data ss:Type="String">LIE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">LTU</Data></Cell>
+    <Cell><Data ss:Type="String">Lithuania</Data></Cell>
+    <Cell><Data ss:Type="String">LTU</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">LUX</Data></Cell>
+    <Cell><Data ss:Type="String">Luxembourg</Data></Cell>
+    <Cell><Data ss:Type="String">LUX</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">MDG</Data></Cell>
+    <Cell><Data ss:Type="String">Madagascar</Data></Cell>
+    <Cell><Data ss:Type="String">MDG</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">MWI</Data></Cell>
+    <Cell><Data ss:Type="String">Malawi</Data></Cell>
+    <Cell><Data ss:Type="String">MWI</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">MYS</Data></Cell>
+    <Cell><Data ss:Type="String">Malaysia</Data></Cell>
+    <Cell><Data ss:Type="String">MYS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">MDV</Data></Cell>
+    <Cell><Data ss:Type="String">Maldives</Data></Cell>
+    <Cell><Data ss:Type="String">MDV</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">MLI</Data></Cell>
+    <Cell><Data ss:Type="String">Mali</Data></Cell>
+    <Cell><Data ss:Type="String">MLI</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">MLT</Data></Cell>
+    <Cell><Data ss:Type="String">Malta</Data></Cell>
+    <Cell><Data ss:Type="String">MLT</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">MHL</Data></Cell>
+    <Cell><Data ss:Type="String">Marshall Islands</Data></Cell>
+    <Cell><Data ss:Type="String">MHL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">MRT</Data></Cell>
+    <Cell><Data ss:Type="String">Mauritania</Data></Cell>
+    <Cell><Data ss:Type="String">MRT</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">MUS</Data></Cell>
+    <Cell><Data ss:Type="String">Mauritius</Data></Cell>
+    <Cell><Data ss:Type="String">MUS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">MEX</Data></Cell>
+    <Cell><Data ss:Type="String">Mexico</Data></Cell>
+    <Cell><Data ss:Type="String">MEX</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">FSM</Data></Cell>
+    <Cell><Data ss:Type="String">Micronesia, Federated States of</Data></Cell>
+    <Cell><Data ss:Type="String">FSM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">MDA</Data></Cell>
+    <Cell><Data ss:Type="String">Moldova, Republic of</Data></Cell>
+    <Cell><Data ss:Type="String">MDA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">MCO</Data></Cell>
+    <Cell><Data ss:Type="String">Monaco</Data></Cell>
+    <Cell><Data ss:Type="String">MCO</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">MKD</Data></Cell>
+    <Cell><Data ss:Type="String">Macedonia</Data></Cell>
+    <Cell><Data ss:Type="String">MKD</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">MNG</Data></Cell>
+    <Cell><Data ss:Type="String">Mongolia</Data></Cell>
+    <Cell><Data ss:Type="String">MNG</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">MNE</Data></Cell>
+    <Cell><Data ss:Type="String">Montenegro</Data></Cell>
+    <Cell><Data ss:Type="String">MNE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">MAR</Data></Cell>
+    <Cell><Data ss:Type="String">Morocco</Data></Cell>
+    <Cell><Data ss:Type="String">MAR</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">MOZ</Data></Cell>
+    <Cell><Data ss:Type="String">Mozambique</Data></Cell>
+    <Cell><Data ss:Type="String">MOZ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">MMR</Data></Cell>
+    <Cell><Data ss:Type="String">Myanmar</Data></Cell>
+    <Cell><Data ss:Type="String">MMR</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">NAM</Data></Cell>
+    <Cell><Data ss:Type="String">Namibia</Data></Cell>
+    <Cell><Data ss:Type="String">NAM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">NRU</Data></Cell>
+    <Cell><Data ss:Type="String">Nauru</Data></Cell>
+    <Cell><Data ss:Type="String">NRU</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">NPL</Data></Cell>
+    <Cell><Data ss:Type="String">Nepal</Data></Cell>
+    <Cell><Data ss:Type="String">NPL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">NLD</Data></Cell>
+    <Cell><Data ss:Type="String">Netherlands</Data></Cell>
+    <Cell><Data ss:Type="String">NLD</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">NZL</Data></Cell>
+    <Cell><Data ss:Type="String">New Zealand</Data></Cell>
+    <Cell><Data ss:Type="String">NZL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">NIC</Data></Cell>
+    <Cell><Data ss:Type="String">Nicaragua</Data></Cell>
+    <Cell><Data ss:Type="String">NIC</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">NER</Data></Cell>
+    <Cell><Data ss:Type="String">Niger</Data></Cell>
+    <Cell><Data ss:Type="String">NER</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">NGA</Data></Cell>
+    <Cell><Data ss:Type="String">Nigeria</Data></Cell>
+    <Cell><Data ss:Type="String">NGA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">NOR</Data></Cell>
+    <Cell><Data ss:Type="String">Norway</Data></Cell>
+    <Cell><Data ss:Type="String">NOR</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">OMN</Data></Cell>
+    <Cell><Data ss:Type="String">Oman</Data></Cell>
+    <Cell><Data ss:Type="String">OMN</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PAK</Data></Cell>
+    <Cell><Data ss:Type="String">Pakistan</Data></Cell>
+    <Cell><Data ss:Type="String">PAK</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PLW</Data></Cell>
+    <Cell><Data ss:Type="String">Palau</Data></Cell>
+    <Cell><Data ss:Type="String">PLW</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PAN</Data></Cell>
+    <Cell><Data ss:Type="String">Panama</Data></Cell>
+    <Cell><Data ss:Type="String">PAN</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PNG</Data></Cell>
+    <Cell><Data ss:Type="String">Papua New Guinea</Data></Cell>
+    <Cell><Data ss:Type="String">PNG</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PRY</Data></Cell>
+    <Cell><Data ss:Type="String">Paraguay</Data></Cell>
+    <Cell><Data ss:Type="String">PRY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PER</Data></Cell>
+    <Cell><Data ss:Type="String">Peru</Data></Cell>
+    <Cell><Data ss:Type="String">PER</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PHL</Data></Cell>
+    <Cell><Data ss:Type="String">Philippines</Data></Cell>
+    <Cell><Data ss:Type="String">PHL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">POL</Data></Cell>
+    <Cell><Data ss:Type="String">Poland</Data></Cell>
+    <Cell><Data ss:Type="String">POL</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">PRT</Data></Cell>
+    <Cell><Data ss:Type="String">Portugal</Data></Cell>
+    <Cell><Data ss:Type="String">PRT</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">QAT</Data></Cell>
+    <Cell><Data ss:Type="String">Qatar</Data></Cell>
+    <Cell><Data ss:Type="String">QAT</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ROU</Data></Cell>
+    <Cell><Data ss:Type="String">Romania</Data></Cell>
+    <Cell><Data ss:Type="String">ROU</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">RUS</Data></Cell>
+    <Cell><Data ss:Type="String">Russian Federation</Data></Cell>
+    <Cell><Data ss:Type="String">RUS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">RWA</Data></Cell>
+    <Cell><Data ss:Type="String">Rwanda</Data></Cell>
+    <Cell><Data ss:Type="String">RWA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">KNA</Data></Cell>
+    <Cell><Data ss:Type="String">Saint Kitts and Nevis</Data></Cell>
+    <Cell><Data ss:Type="String">KNA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">LCA</Data></Cell>
+    <Cell><Data ss:Type="String">Saint Lucia</Data></Cell>
+    <Cell><Data ss:Type="String">LCA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">VCT</Data></Cell>
+    <Cell><Data ss:Type="String">Saint Vincent and the Grenadines</Data></Cell>
+    <Cell><Data ss:Type="String">VCT</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">WSM</Data></Cell>
+    <Cell><Data ss:Type="String">Samoa</Data></Cell>
+    <Cell><Data ss:Type="String">WSM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SMR</Data></Cell>
+    <Cell><Data ss:Type="String">San Marino</Data></Cell>
+    <Cell><Data ss:Type="String">SMR</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">STP</Data></Cell>
+    <Cell><Data ss:Type="String">Sao Tome and Principe</Data></Cell>
+    <Cell><Data ss:Type="String">STP</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SAU</Data></Cell>
+    <Cell><Data ss:Type="String">Saudi Arabia</Data></Cell>
+    <Cell><Data ss:Type="String">SAU</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SEN</Data></Cell>
+    <Cell><Data ss:Type="String">Senegal</Data></Cell>
+    <Cell><Data ss:Type="String">SEN</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SRB</Data></Cell>
+    <Cell><Data ss:Type="String">Serbia</Data></Cell>
+    <Cell><Data ss:Type="String">SRB</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SYC</Data></Cell>
+    <Cell><Data ss:Type="String">Seychelles</Data></Cell>
+    <Cell><Data ss:Type="String">SYC</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SLE</Data></Cell>
+    <Cell><Data ss:Type="String">Sierra Leone</Data></Cell>
+    <Cell><Data ss:Type="String">SLE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SGP</Data></Cell>
+    <Cell><Data ss:Type="String">Singapore</Data></Cell>
+    <Cell><Data ss:Type="String">SGP</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SVK</Data></Cell>
+    <Cell><Data ss:Type="String">Slovakia</Data></Cell>
+    <Cell><Data ss:Type="String">SVK</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SVN</Data></Cell>
+    <Cell><Data ss:Type="String">Slovenia</Data></Cell>
+    <Cell><Data ss:Type="String">SVN</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SLB</Data></Cell>
+    <Cell><Data ss:Type="String">Solomon Islands</Data></Cell>
+    <Cell><Data ss:Type="String">SLB</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SOM</Data></Cell>
+    <Cell><Data ss:Type="String">Somalia</Data></Cell>
+    <Cell><Data ss:Type="String">SOM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ZAF</Data></Cell>
+    <Cell><Data ss:Type="String">South Africa</Data></Cell>
+    <Cell><Data ss:Type="String">ZAF</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ESP</Data></Cell>
+    <Cell><Data ss:Type="String">Spain</Data></Cell>
+    <Cell><Data ss:Type="String">ESP</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">LKA</Data></Cell>
+    <Cell><Data ss:Type="String">Sri Lanka</Data></Cell>
+    <Cell><Data ss:Type="String">LKA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SDN</Data></Cell>
+    <Cell><Data ss:Type="String">Sudan</Data></Cell>
+    <Cell><Data ss:Type="String">SDN</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SUR</Data></Cell>
+    <Cell><Data ss:Type="String">Suriname</Data></Cell>
+    <Cell><Data ss:Type="String">SUR</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SWZ</Data></Cell>
+    <Cell><Data ss:Type="String">Swaziland</Data></Cell>
+    <Cell><Data ss:Type="String">SWZ</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SWE</Data></Cell>
+    <Cell><Data ss:Type="String">Sweden</Data></Cell>
+    <Cell><Data ss:Type="String">SWE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">CHE</Data></Cell>
+    <Cell><Data ss:Type="String">Switzerland</Data></Cell>
+    <Cell><Data ss:Type="String">CHE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">SYR</Data></Cell>
+    <Cell><Data ss:Type="String">Syrian Arab Republic</Data></Cell>
+    <Cell><Data ss:Type="String">SYR</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">TJK</Data></Cell>
+    <Cell><Data ss:Type="String">Tajikistan</Data></Cell>
+    <Cell><Data ss:Type="String">TJK</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">TZA</Data></Cell>
+    <Cell><Data ss:Type="String">Tanzania, United Republic of</Data></Cell>
+    <Cell><Data ss:Type="String">TZA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">THA</Data></Cell>
+    <Cell><Data ss:Type="String">Thailand</Data></Cell>
+    <Cell><Data ss:Type="String">THA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">TLS</Data></Cell>
+    <Cell><Data ss:Type="String">TimorLeste</Data></Cell>
+    <Cell><Data ss:Type="String">TLS</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">TGO</Data></Cell>
+    <Cell><Data ss:Type="String">Togo</Data></Cell>
+    <Cell><Data ss:Type="String">TGO</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">TON</Data></Cell>
+    <Cell><Data ss:Type="String">Tonga</Data></Cell>
+    <Cell><Data ss:Type="String">TON</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">TTO</Data></Cell>
+    <Cell><Data ss:Type="String">Trinidad and Tobago</Data></Cell>
+    <Cell><Data ss:Type="String">TTO</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">TUN</Data></Cell>
+    <Cell><Data ss:Type="String">Tunisia</Data></Cell>
+    <Cell><Data ss:Type="String">TUN</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">TUR</Data></Cell>
+    <Cell><Data ss:Type="String">Turkey</Data></Cell>
+    <Cell><Data ss:Type="String">TUR</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">TKM</Data></Cell>
+    <Cell><Data ss:Type="String">Turkmenistan</Data></Cell>
+    <Cell><Data ss:Type="String">TKM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">TUV</Data></Cell>
+    <Cell><Data ss:Type="String">Tuvalu</Data></Cell>
+    <Cell><Data ss:Type="String">TUV</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">UGA</Data></Cell>
+    <Cell><Data ss:Type="String">Uganda</Data></Cell>
+    <Cell><Data ss:Type="String">UGA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">UKR</Data></Cell>
+    <Cell><Data ss:Type="String">Ukraine</Data></Cell>
+    <Cell><Data ss:Type="String">UKR</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ARE</Data></Cell>
+    <Cell><Data ss:Type="String">United Arab Emirates</Data></Cell>
+    <Cell><Data ss:Type="String">ARE</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">GBR</Data></Cell>
+    <Cell><Data ss:Type="String">United Kingdom</Data></Cell>
+    <Cell><Data ss:Type="String">GBR</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">USA</Data></Cell>
+    <Cell><Data ss:Type="String">United States</Data></Cell>
+    <Cell><Data ss:Type="String">USA</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">URY</Data></Cell>
+    <Cell><Data ss:Type="String">Uruguay</Data></Cell>
+    <Cell><Data ss:Type="String">URY</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">UZB</Data></Cell>
+    <Cell><Data ss:Type="String">Uzbekistan</Data></Cell>
+    <Cell><Data ss:Type="String">UZB</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">VUT</Data></Cell>
+    <Cell><Data ss:Type="String">Vanuatu</Data></Cell>
+    <Cell><Data ss:Type="String">VUT</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">VEN</Data></Cell>
+    <Cell><Data ss:Type="String">Venezuela, Bolivarian Republic of</Data></Cell>
+    <Cell><Data ss:Type="String">VEN</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">VNM</Data></Cell>
+    <Cell><Data ss:Type="String">Viet Nam</Data></Cell>
+    <Cell><Data ss:Type="String">VNM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">YEM</Data></Cell>
+    <Cell><Data ss:Type="String">Yemen</Data></Cell>
+    <Cell><Data ss:Type="String">YEM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ZMB</Data></Cell>
+    <Cell><Data ss:Type="String">Zambia</Data></Cell>
+    <Cell><Data ss:Type="String">ZMB</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">ZWE</Data></Cell>
+    <Cell><Data ss:Type="String">Zimbabwe</Data></Cell>
+    <Cell><Data ss:Type="String">ZWE</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>-4</HorizontalResolution>
+    <VerticalResolution>-4</VerticalResolution>
+   </Print>
+   <PageLayoutZoom>0</PageLayoutZoom>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>15</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
