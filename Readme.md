@@ -4,7 +4,7 @@ This repository hosts all the files and code to generate the Gain Index
 2012, available at [index.gain.org](index.gain.org).
 
 Note: The repository with the [code for the Index website is
-here](https://github.com/globalai/Index-site).
+here](https://github.com/brunosan/Gain-Index-Site/).
 
 
 
